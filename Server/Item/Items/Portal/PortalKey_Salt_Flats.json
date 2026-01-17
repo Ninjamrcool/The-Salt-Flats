@@ -9,7 +9,7 @@
   ],
   "PortalKey": {
     "PortalType": "Salt_Flats",
-    "TimeLimitSeconds": 420
+    "TimeLimitSeconds": 1500
   },
   "BlockType": {
     "DrawType": "Model",
