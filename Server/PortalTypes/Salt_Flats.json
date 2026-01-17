@@ -12,10 +12,10 @@
   },
   "VoidInvasionEnabled": false,
   "PlayerSpawn": {
-    "Y": 110,
+    "Y": 118,
     "ScanHeight": 16,
     "MinRadius": 60,
-    "MaxRadius": 60,
+    "MaxRadius": 300,
     "ChunkDartThrows": 20,
     "ChecksPerChunk": 5,
     "Center": {

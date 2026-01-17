@@ -1,5 +1,5 @@
 {
-  "$Comment": "This instanced world spawns a prototype Plains1 region from the Hytale generator",
+  "$Comment": "This instanced world spawns a salt flats biome",
   "RequiredPlugins": {},
   "ChunkStorage": {
     "Type": "Hytale"
@@ -22,17 +22,6 @@
   "WorldGen": {
     "Type": "HytaleGenerator",
     "WorldStructure": "Salt_Flats_WorldStructure"
-  },
-  "SpawnProvider": {
-    "Id": "Global",
-    "SpawnPoint": {
-      "X": 0.5,
-      "Y": 119,
-      "Z": 0.5,
-      "Pitch": 0,
-      "Yaw": 180,
-      "Roll": 0.0
-    }
   },
   "IsSpawnMarkersEnabled": true,
   "DeleteOnRemove": false,
