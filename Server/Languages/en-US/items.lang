@@ -1,0 +1,6 @@
+Plant_Crop_Mushroom_Shelve_White.name = White Mushroom Shelf
+
+PortalKey_Salt_Flats.name = Fragment: Orbis - The Salt Flats
+PortalKey_Salt_Flats.description = [TMP] <msg key="server.items.PortalKey.description"/>\n\
+\n\
+<i>These Salt Flats expand way past the edges of civilization, where few wanderers can survive.</i>
