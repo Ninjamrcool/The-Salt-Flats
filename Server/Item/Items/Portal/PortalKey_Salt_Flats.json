@@ -45,7 +45,7 @@
         ]
       }
     ],
-    "RequiredMemoriesLevel": 1
+    "RequiredMemoriesLevel": 5
   },
   "PlayerAnimationsId": "Item",
   "Tags": {

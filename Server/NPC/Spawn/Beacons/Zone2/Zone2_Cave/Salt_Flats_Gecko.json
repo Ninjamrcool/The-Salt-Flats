@@ -2,7 +2,7 @@
   "Environments": [
     "Env_Zone2_Salt_Flats"
   ],
-  "MinDistanceFromPlayer": 25,
+  "MinDistanceFromPlayer": 10,
   "MaxSpawnedNPCs": 2,
   "ConcurrentSpawnsRange": [
     1,
@@ -15,12 +15,12 @@
   "NPCIdleDespawnTime": 20,
   "BeaconVacantDespawnGameTime": "PT40M",
   "BeaconRadius": 70,
-  "SpawnRadius": 60,
-  "TargetDistanceFromPlayer": 60,
+  "SpawnRadius": 40,
+  "TargetDistanceFromPlayer": 25,
   "NPCs": [
     {
       "Weight": 100,
-      "Id": "Vulture"
+      "Id": "Gecko"
     }
   ]
 }
