@@ -1264,7 +1264,7 @@
 								"Skip":	false,
 								"WeightedPrefabPaths":	[{
 										"$NodeId":	"WeightedPath.Prefab.Prop-d09c581a-16a6-42b5-9c78-f729a1ef8b4e",
-										"Path":	"Salt_Flats/Fossils",
+										"Path":	"Salt_Flats/SmallFossils",
 										"Weight":	100
 									}],
 								"LegacyPath":	false,
@@ -1296,6 +1296,84 @@
 									"ExportAs":	"",
 									"Import":	"AirMask",
 									"Advanced":	[]
+								},
+								"MoldingDirection":	"None",
+								"MoldingChildren":	false
+							}
+						}
+					}]
+			}
+		}, {
+			"$NodeId":	"Runtime-23ded8f0-0418-4612-9c98-0854c369a6a4",
+			"Skip":	false,
+			"Runtime":	1,
+			"Positions":	{
+				"$NodeId":	"Mesh2DPositions-07609244-3f34-41c5-a48c-d3636afdb937",
+				"Type":	"Mesh2D",
+				"Skip":	false,
+				"PointsY":	0,
+				"PointGenerator":	{
+					"$NodeId":	"MeshPointGenerator-1406aa52-b4ba-40a9-a9f8-bcd1fb7d5b77",
+					"Type":	"Mesh",
+					"Jitter":	0.4,
+					"ScaleX":	17,
+					"ScaleY":	17,
+					"ScaleZ":	17,
+					"Seed":	"F"
+				}
+			},
+			"Assignments":	{
+				"$NodeId":	"FieldFunction.Assignments-9e63baeb-cdc4-49b1-9a98-67d75f27cf46",
+				"Type":	"FieldFunction",
+				"FieldFunction":	{
+					"$NodeId":	"SimplexNoise2DDensityNode-c303c7df-084c-4a5c-b350-ad36e8ae2bf0",
+					"Type":	"SimplexNoise2D",
+					"Skip":	false,
+					"Lacunarity":	2,
+					"Persistence":	0.5,
+					"Octaves":	5,
+					"Scale":	55,
+					"Seed":	"156"
+				},
+				"Delimiters":	[{
+						"$NodeId":	"Delimiter.FieldFunction.Assignments-5915b14b-5521-4b70-8120-85ebfed60e4c",
+						"Max":	1,
+						"Min":	0.7,
+						"Assignments":	{
+							"$NodeId":	"Constant.Assignments-cf552bd1-249a-44c1-8f9a-5e324bd47607",
+							"Type":	"Constant",
+							"Prop":	{
+								"$NodeId":	"Prefab.Prop-93976813-5623-43a0-860e-b0b9c536e81c",
+								"Type":	"Prefab",
+								"Skip":	false,
+								"WeightedPrefabPaths":	[{
+										"$NodeId":	"WeightedPath.Prefab.Prop-3a57f835-182c-4873-bc90-399817851b6d",
+										"Path":	"Salt_Flats/GiganticFossils",
+										"Weight":	100
+									}],
+								"LegacyPath":	false,
+								"LoadEntities":	true,
+								"Directionality":	{
+									"$NodeId":	"Random.Directionality-53392c5a-638d-4a26-a17e-b96a46e891f5",
+									"Type":	"Random",
+									"Seed":	"A",
+									"Pattern":	{
+										"$NodeId":	"Imported.Pattern-4014c2d3-e0f6-4039-af27-6d81cf1ee37a",
+										"Type":	"Imported",
+										"Skip":	false,
+										"Name":	"SaltPattern"
+									}
+								},
+								"Scanner":	{
+									"$NodeId":	"ColumnLinear.Scanner-a073d54c-46a2-4aa6-9f92-71bdf6dcc561",
+									"Type":	"ColumnLinear",
+									"Skip":	false,
+									"MaxY":	60,
+									"MinY":	0,
+									"RelativeToPosition":	false,
+									"BaseHeightName":	"Base",
+									"TopDownOrder":	true,
+									"ResultCap":	1
 								},
 								"MoldingDirection":	"None",
 								"MoldingChildren":	false
@@ -2904,6 +2982,78 @@
 					"$x":	-5402,
 					"$y":	18577
 				}
+			},
+			"Runtime-23ded8f0-0418-4612-9c98-0854c369a6a4":	{
+				"$Position":	{
+					"$x":	-2876,
+					"$y":	27943
+				}
+			},
+			"Mesh2DPositions-07609244-3f34-41c5-a48c-d3636afdb937":	{
+				"$Position":	{
+					"$x":	-2204,
+					"$y":	27898
+				}
+			},
+			"MeshPointGenerator-1406aa52-b4ba-40a9-a9f8-bcd1fb7d5b77":	{
+				"$Position":	{
+					"$x":	-1517,
+					"$y":	27891
+				}
+			},
+			"FieldFunction.Assignments-9e63baeb-cdc4-49b1-9a98-67d75f27cf46":	{
+				"$Position":	{
+					"$x":	-2292,
+					"$y":	28366
+				}
+			},
+			"SimplexNoise2DDensityNode-c303c7df-084c-4a5c-b350-ad36e8ae2bf0":	{
+				"$Position":	{
+					"$x":	-1478,
+					"$y":	28163
+				}
+			},
+			"Delimiter.FieldFunction.Assignments-5915b14b-5521-4b70-8120-85ebfed60e4c":	{
+				"$Position":	{
+					"$x":	-1480,
+					"$y":	28521
+				}
+			},
+			"Constant.Assignments-cf552bd1-249a-44c1-8f9a-5e324bd47607":	{
+				"$Position":	{
+					"$x":	-913,
+					"$y":	28522
+				}
+			},
+			"Prefab.Prop-93976813-5623-43a0-860e-b0b9c536e81c":	{
+				"$Position":	{
+					"$x":	-228,
+					"$y":	28448
+				}
+			},
+			"WeightedPath.Prefab.Prop-3a57f835-182c-4873-bc90-399817851b6d":	{
+				"$Position":	{
+					"$x":	531,
+					"$y":	28444
+				}
+			},
+			"Random.Directionality-53392c5a-638d-4a26-a17e-b96a46e891f5":	{
+				"$Position":	{
+					"$x":	529,
+					"$y":	28618
+				}
+			},
+			"Imported.Pattern-4014c2d3-e0f6-4039-af27-6d81cf1ee37a":	{
+				"$Position":	{
+					"$x":	1209,
+					"$y":	28635
+				}
+			},
+			"ColumnLinear.Scanner-a073d54c-46a2-4aa6-9f92-71bdf6dcc561":	{
+				"$Position":	{
+					"$x":	525,
+					"$y":	28790
+				}
 			}
 		},
 		"$FloatingNodes":	[],
@@ -3101,6 +3251,14 @@
 				"$width":	5623.3125,
 				"$height":	1537.9375,
 				"$name":	"Small Fossils"
+			}, {
+				"$Position":	{
+					"$x":	-3016.875,
+					"$y":	27747.25
+				},
+				"$width":	5623.3125,
+				"$height":	1537.9375,
+				"$name":	"Gigantic Fossils"
 			}],
 		"$Comments":	[{
 				"$Position":	{

@@ -1,8 +1,8 @@
 {
   "TranslationProperties": {
-    "Name": "items.Deco_Salty_Bone_Spine.name"
+    "Name": "items.Deco_Salty_Bone_Spike_Large.name"
   },
-  "Icon": "Icons/ItemsGenerated/Deco_Salty_Bone_Spine.png",
+  "Icon": "Icons/ItemsGenerated/Deco_Salty_Bone_Spike_Large.png",
   "Categories": [
     "Blocks.Plants"
   ],
@@ -13,25 +13,33 @@
   "Set": "Bones",
   "BlockType": {
     "DrawType": "Model",
-    "CustomModel": "Blocks/Dungeons/Bone_Spine.blockymodel",
+    "CustomModel": "Blocks/Stone/Stalactite_Big.blockymodel",
     "CustomModelTexture": [
       {
-        "Weight": 1,
-        "Texture": "Blocks/Dungeons/Salty_Bone_Spine_Texture.png"
+        "Texture": "BlockTextures/Salty_Bone_Side.png",
+        "Weight": 1
       }
     ],
+    "VariantRotation": "UpDown",
     "Material": "Solid",
     "HitboxType": "Full",
-    "VariantRotation": "Wall",
     "Flags": {},
+    "RandomRotation": "YawStep90",
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
         "ItemId": "Deco_Salty_Bone_Full"
       }
     },
-    "BlockSoundSetId": "Bone",
     "BlockParticleSetId": "Stone",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Bone",
     "ParticleColor": "#fbf8ed"
   },
   "ResourceTypes": [
@@ -39,15 +47,9 @@
       "Id": "Bone"
     }
   ],
-  "PlayerAnimationsId": "Block",
-  "Tags": {
-    "Type": [
-      "Deco"
-    ]
-  },
-  "ItemSoundSetId": "ISS_Items_Bones",
+  "PlayerAnimationsId": "Item",
   "IconProperties": {
-    "Scale": 0.58823,
+    "Scale": 0.375,
     "Rotation": [
       22.5,
       45,
@@ -55,7 +57,13 @@
     ],
     "Translation": [
       0,
-      -13.5
+      -22.2
     ]
-  }
+  },
+  "Tags": {
+    "Type": [
+      "Deco"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Bones"
 }

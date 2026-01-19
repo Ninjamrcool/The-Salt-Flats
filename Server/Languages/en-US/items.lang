@@ -4,6 +4,8 @@ Deco_Salty_Bone_Full.name = Salty Bone
 Deco_Salty_Bone_Ribs_Long.name = Long Salty Rib
 Deco_Salty_Bone_Ribs.name = Salty Rib
 Deco_Salty_Bone_Spine.name = Salty Bone Spine
+Deco_Salty_Bone_Spike.name = Salty Bone Spike
+Deco_Salty_Bone_Spike_Large.name = Large Salty Bone Spike
 
 PortalKey_Salt_Flats.name = Fragment: Orbis - The Salt Flats
 PortalKey_Salt_Flats.description = [TMP] <msg key="server.items.PortalKey.description"/>\n\
