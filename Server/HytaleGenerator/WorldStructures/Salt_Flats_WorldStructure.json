@@ -3,7 +3,12 @@
   "Biomes": [{
       "Biome" : "Salt_Flats",
       "Min" : -1,
-      "Max" : 2
+      "Max" : 0
+    },
+    {
+      "Biome" : "Shattered_Salt_Flats",
+      "Min" : 0,
+      "Max" : 1
     }
   ],
   "DefaultBiome": "Basic",
@@ -22,7 +27,7 @@
     {
       "Type" : "BaseHeight",
       "Name" : "Water",
-      "Y" : 100
+      "Y" : 82
     },
     {
       "Type" : "BaseHeight",
