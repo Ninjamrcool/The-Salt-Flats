@@ -1,0 +1,79 @@
+{
+	"$NodeId":	"Cache.Density-0ee0ff5f-a0fb-4046-85b5-8fd25ae59a0b",
+	"Type":	"Cache",
+	"ExportAs":	"Salt_Flats_Material_Pattern",
+	"Skip":	false,
+	"Capacity":	3,
+	"Inputs":	[{
+			"$NodeId":	"ClampDensityNode-f3eff55f-6d75-47ba-813c-9ca767715457",
+			"Type":	"Clamp",
+			"ExportAs":	"",
+			"Skip":	false,
+			"WallA":	0,
+			"WallB":	1,
+			"Inputs":	[{
+					"$NodeId":	"AmplitudeConstantDensityNode-a1b46d0b-edbf-4d24-a9c0-937d99a20cee",
+					"Type":	"AmplitudeConstant",
+					"Skip":	false,
+					"Value":	999,
+					"Inputs":	[{
+							"$NodeId":	"OffsetConstantDensityNode-97d642d5-49ff-4b58-be77-1723b755d6a6",
+							"Type":	"OffsetConstant",
+							"Skip":	false,
+							"Value":	0.1,
+							"Inputs":	[{
+									"$NodeId":	"CellNoise2DDensityNode-5d08222d-fe1e-4a99-beea-2ac8207ac834",
+									"Type":	"CellNoise2D",
+									"Skip":	false,
+									"ScaleX":	15,
+									"ScaleZ":	15,
+									"Jitter":	0.3,
+									"CellType":	"Distance2Div",
+									"Octaves":	1,
+									"Seed":	"A"
+								}]
+						}]
+				}]
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Cache.Density-0ee0ff5f-a0fb-4046-85b5-8fd25ae59a0b":	{
+				"$Position":	{
+					"$x":	-3000,
+					"$y":	-9212
+				},
+				"$Title":	"[ROOT] Cache Density"
+			},
+			"ClampDensityNode-f3eff55f-6d75-47ba-813c-9ca767715457":	{
+				"$Position":	{
+					"$x":	-2318,
+					"$y":	-9210
+				}
+			},
+			"AmplitudeConstantDensityNode-a1b46d0b-edbf-4d24-a9c0-937d99a20cee":	{
+				"$Position":	{
+					"$x":	-1620,
+					"$y":	-9211
+				}
+			},
+			"OffsetConstantDensityNode-97d642d5-49ff-4b58-be77-1723b755d6a6":	{
+				"$Position":	{
+					"$x":	-870,
+					"$y":	-9208
+				}
+			},
+			"CellNoise2DDensityNode-5d08222d-fe1e-4a99-beea-2ac8207ac834":	{
+				"$Position":	{
+					"$x":	-148,
+					"$y":	-9206
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - Density"
+	}
+}
