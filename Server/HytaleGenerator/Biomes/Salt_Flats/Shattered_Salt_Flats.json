@@ -155,15 +155,26 @@
 																			"ToMin":	0.03,
 																			"ToMax":	0.95,
 																			"Inputs":	[{
-																					"$NodeId":	"CellNoise2DDensityNode-458132e3-33b8-46ba-97d9-2f2666e78bd0",
-																					"Type":	"CellNoise2D",
+																					"$NodeId":	"FastGradientWarp.Density-b996eb7c-3e01-416b-b1e3-63f7a4e739c6",
+																					"Type":	"FastGradientWarp",
 																					"Skip":	false,
-																					"ScaleX":	80,
-																					"ScaleZ":	80,
-																					"Jitter":	0.8,
-																					"CellType":	"Distance2Div",
-																					"Octaves":	1,
-																					"Seed":	"A"
+																					"WarpScale":	100,
+																					"WarpPersistence":	0.5,
+																					"WarpLacunarity":	4,
+																					"WarpOctaves":	2,
+																					"WarpFactor":	10,
+																					"Seed":	"A",
+																					"Inputs":	[{
+																							"$NodeId":	"CellNoise2DDensityNode-458132e3-33b8-46ba-97d9-2f2666e78bd0",
+																							"Type":	"CellNoise2D",
+																							"Skip":	false,
+																							"ScaleX":	80,
+																							"ScaleZ":	80,
+																							"Jitter":	0.6,
+																							"CellType":	"Distance2Div",
+																							"Octaves":	1,
+																							"Seed":	"A"
+																						}]
 																				}]
 																		}]
 																}]
@@ -913,8 +924,8 @@
 			},
 			"CellNoise2DDensityNode-458132e3-33b8-46ba-97d9-2f2666e78bd0":	{
 				"$Position":	{
-					"$x":	5081,
-					"$y":	-5655
+					"$x":	5926,
+					"$y":	-5672
 				}
 			},
 			"CurveMapper.Density-dd098d82-fcba-438a-a9f8-1dd355802886":	{
@@ -1767,6 +1778,12 @@
 				"$Position":	{
 					"$x":	-2568,
 					"$y":	2872
+				}
+			},
+			"FastGradientWarp.Density-b996eb7c-3e01-416b-b1e3-63f7a4e739c6":	{
+				"$Position":	{
+					"$x":	5158,
+					"$y":	-5657
 				}
 			}
 		},
