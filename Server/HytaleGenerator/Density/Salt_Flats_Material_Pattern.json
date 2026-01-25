@@ -12,15 +12,13 @@
 			"WallA":	0,
 			"WallB":	1,
 			"Inputs":	[{
-					"$NodeId":	"AmplitudeConstantDensityNode-a1b46d0b-edbf-4d24-a9c0-937d99a20cee",
-					"Type":	"AmplitudeConstant",
+					"$NodeId":	"MultiplierDensityNode-2f541c02-2f57-4798-a6dc-6d8633957568",
+					"Type":	"Multiplier",
 					"Skip":	false,
-					"Value":	999,
 					"Inputs":	[{
-							"$NodeId":	"OffsetConstantDensityNode-97d642d5-49ff-4b58-be77-1723b755d6a6",
-							"Type":	"OffsetConstant",
+							"$NodeId":	"SumDensityNode-01dabaf9-3ba5-4376-9700-4c90c202a057",
+							"Type":	"Sum",
 							"Skip":	false,
-							"Value":	0.1,
 							"Inputs":	[{
 									"$NodeId":	"CellNoise2DDensityNode-5d08222d-fe1e-4a99-beea-2ac8207ac834",
 									"Type":	"CellNoise2D",
@@ -31,7 +29,17 @@
 									"CellType":	"Distance2Div",
 									"Octaves":	1,
 									"Seed":	"A"
+								}, {
+									"$NodeId":	"ConstantDensityNode-53f41a19-7e2f-48aa-b3df-9d5bf6f9a6a5",
+									"Type":	"Constant",
+									"Skip":	false,
+									"Value":	0.1
 								}]
+						}, {
+							"$NodeId":	"ConstantDensityNode-4d1e89c4-8c59-4b44-b8a2-2e3633cbf94f",
+							"Type":	"Constant",
+							"Skip":	false,
+							"Value":	999
 						}]
 				}]
 		}],
@@ -50,22 +58,34 @@
 					"$y":	-9210
 				}
 			},
-			"AmplitudeConstantDensityNode-a1b46d0b-edbf-4d24-a9c0-937d99a20cee":	{
-				"$Position":	{
-					"$x":	-1620,
-					"$y":	-9211
-				}
-			},
-			"OffsetConstantDensityNode-97d642d5-49ff-4b58-be77-1723b755d6a6":	{
-				"$Position":	{
-					"$x":	-870,
-					"$y":	-9208
-				}
-			},
 			"CellNoise2DDensityNode-5d08222d-fe1e-4a99-beea-2ac8207ac834":	{
 				"$Position":	{
-					"$x":	-148,
-					"$y":	-9206
+					"$x":	-324,
+					"$y":	-9401
+				}
+			},
+			"MultiplierDensityNode-2f541c02-2f57-4798-a6dc-6d8633957568":	{
+				"$Position":	{
+					"$x":	-1666,
+					"$y":	-9196
+				}
+			},
+			"SumDensityNode-01dabaf9-3ba5-4376-9700-4c90c202a057":	{
+				"$Position":	{
+					"$x":	-1009,
+					"$y":	-9202
+				}
+			},
+			"ConstantDensityNode-53f41a19-7e2f-48aa-b3df-9d5bf6f9a6a5":	{
+				"$Position":	{
+					"$x":	-349,
+					"$y":	-9005
+				}
+			},
+			"ConstantDensityNode-4d1e89c4-8c59-4b44-b8a2-2e3633cbf94f":	{
+				"$Position":	{
+					"$x":	-1005,
+					"$y":	-9000
 				}
 			}
 		},

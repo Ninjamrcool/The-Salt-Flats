@@ -1,0 +1,331 @@
+{
+	"$NodeId":	"FieldFunction.Assignments-44c41de3-e261-4d98-90cf-4380676e0d64",
+	"Type":	"FieldFunction",
+	"ExportAs":	"Salt_Flats_Red_Sandstone_Rubble",
+	"FieldFunction":	{
+		"$NodeId":	"SimplexNoise2DDensityNode-4be16d2b-6453-46c0-af6f-c5f86894c015",
+		"Type":	"SimplexNoise2D",
+		"Skip":	false,
+		"Lacunarity":	2,
+		"Persistence":	0.5,
+		"Octaves":	5,
+		"Scale":	10,
+		"Seed":	"1235"
+	},
+	"Delimiters":	[{
+			"$NodeId":	"Delimiter.FieldFunction.Assignments-821a6f47-b611-4d1f-886e-8f89c8896d24",
+			"Max":	0.6,
+			"Min":	0.5,
+			"Assignments":	{
+				"$NodeId":	"Constant.Assignments-0eeb6cfb-aebd-474c-95d3-0dfd59d09a58",
+				"Type":	"Constant",
+				"Prop":	{
+					"$NodeId":	"Column.Prop-c1499e1d-9e58-49e1-a704-bd078a09d03b",
+					"Type":	"Column",
+					"Skip":	false,
+					"ColumnBlocks":	[{
+							"$NodeId":	"Block.Column.Prop-bef089ba-0054-4484-b37f-d28d6b53f8bc",
+							"Y":	0,
+							"Material":	{
+								"$NodeId":	"Material-0ed51daa-bc48-4302-ab03-3bf51f5abcd9",
+								"Solid":	"Rubble_Sandstone_Red"
+							}
+						}],
+					"Directionality":	{
+						"$NodeId":	"Random.Directionality-61e5131b-40c9-4874-85c7-7db37f3dbe7a",
+						"Type":	"Random",
+						"Seed":	"A",
+						"Pattern":	{
+							"$NodeId":	"Floor.Pattern-05a36882-e77f-4dd4-a04c-647b905e615b",
+							"Type":	"Floor",
+							"ExportAs":	"RedSandstonePattern",
+							"Skip":	false,
+							"Origin":	{
+								"$NodeId":	"BlockSet.Pattern-e5921a0d-3293-4d85-b45a-9112e743492a",
+								"Type":	"BlockSet",
+								"Skip":	false,
+								"BlockSet":	{
+									"$NodeId":	"BlockSet.BlockMask-af339d43-1ab9-427e-a28e-cfb23bf4000b",
+									"Inclusive":	true,
+									"Materials":	[{
+											"$NodeId":	"Material-502f2ff9-fb74-4f2e-a70c-d0693d6051c4",
+											"Solid":	"Empty"
+										}]
+								}
+							},
+							"Floor":	{
+								"$NodeId":	"BlockSet.Pattern-36b85ee0-f793-423a-81a7-9b29178a7f99",
+								"Type":	"BlockSet",
+								"Skip":	false,
+								"BlockSet":	{
+									"$NodeId":	"BlockSet.BlockMask-45fac132-6489-46fd-ad56-c5570249e440",
+									"Inclusive":	true,
+									"Materials":	[{
+											"$NodeId":	"Material-26003732-65cc-42ab-a2ff-eec7ef0b45df",
+											"Solid":	"Rock_Sandstone_Red"
+										}]
+								}
+							}
+						}
+					},
+					"Scanner":	{
+						"$NodeId":	"ColumnLinear.Scanner-1c4d8a89-bac2-4a98-abe6-cf366c081630",
+						"Type":	"ColumnLinear",
+						"Skip":	false,
+						"MaxY":	100,
+						"MinY":	0,
+						"RelativeToPosition":	false,
+						"BaseHeightName":	"Base",
+						"TopDownOrder":	false,
+						"ResultCap":	1
+					}
+				}
+			}
+		}, {
+			"$NodeId":	"Delimiter.FieldFunction.Assignments-ef01845c-f47e-4cb0-b375-ae7f8931846f",
+			"Max":	0.75,
+			"Min":	0.6,
+			"Assignments":	{
+				"$NodeId":	"Constant.Assignments-d214ddda-4f3a-419f-bab1-7c67788a6207",
+				"Type":	"Constant",
+				"Prop":	{
+					"$NodeId":	"Column.Prop-597139a4-a20d-4d53-8bfb-6bdc7861957e",
+					"Type":	"Column",
+					"Skip":	false,
+					"ColumnBlocks":	[{
+							"$NodeId":	"Block.Column.Prop-69534a15-d65c-4b61-aa6d-ef540aff458c",
+							"Y":	0,
+							"Material":	{
+								"$NodeId":	"Material-f5802de0-daca-48c8-9e42-85aaf00d694b",
+								"Solid":	"Rubble_Sandstone_Red_Medium"
+							}
+						}],
+					"Directionality":	{
+						"$NodeId":	"Random.Directionality-bb272213-29f2-404c-9b25-e95863d19800",
+						"Type":	"Random",
+						"Seed":	"A",
+						"Pattern":	{
+							"$NodeId":	"Imported.Pattern-c6900c12-44fa-44c4-aadb-99fd87cb344f",
+							"Type":	"Imported",
+							"Skip":	false,
+							"Name":	"RedSandstonePattern"
+						}
+					},
+					"Scanner":	{
+						"$NodeId":	"ColumnLinear.Scanner-55af7636-e26f-4def-b140-7f08e113fa91",
+						"Type":	"ColumnLinear",
+						"Skip":	false,
+						"MaxY":	100,
+						"MinY":	0,
+						"RelativeToPosition":	false,
+						"BaseHeightName":	"Base",
+						"TopDownOrder":	false,
+						"ResultCap":	1
+					}
+				}
+			}
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"FieldFunction.Assignments-44c41de3-e261-4d98-90cf-4380676e0d64":	{
+				"$Position":	{
+					"$x":	-1392,
+					"$y":	4389
+				},
+				"$Title":	"[ROOT] FieldFunction Assignments"
+			},
+			"Runtime-4a37cfbd-a6f2-4924-ae79-fe7b0cc2a612":	{
+				"$Position":	{
+					"$x":	2955,
+					"$y":	15896
+				}
+			},
+			"Mesh2DPositions-934859a3-12d8-4bd0-957c-b3dc904321f3":	{
+				"$Position":	{
+					"$x":	3627,
+					"$y":	15851
+				}
+			},
+			"MeshPointGenerator-88db46be-4151-45d2-8e87-5fff284e5d6a":	{
+				"$Position":	{
+					"$x":	4314,
+					"$y":	15844
+				}
+			},
+			"Imported.Assignments-761fcb34-1782-4f9b-9efe-2a7c7445d317":	{
+				"$Position":	{
+					"$x":	3587,
+					"$y":	16177
+				}
+			},
+			"SimplexNoise2DDensityNode-4be16d2b-6453-46c0-af6f-c5f86894c015":	{
+				"$Position":	{
+					"$x":	-522,
+					"$y":	4039
+				}
+			},
+			"Delimiter.FieldFunction.Assignments-821a6f47-b611-4d1f-886e-8f89c8896d24":	{
+				"$Position":	{
+					"$x":	-558,
+					"$y":	4427
+				}
+			},
+			"Constant.Assignments-0eeb6cfb-aebd-474c-95d3-0dfd59d09a58":	{
+				"$Position":	{
+					"$x":	1,
+					"$y":	4418
+				}
+			},
+			"Column.Prop-c1499e1d-9e58-49e1-a704-bd078a09d03b":	{
+				"$Position":	{
+					"$x":	759,
+					"$y":	4153
+				}
+			},
+			"Block.Column.Prop-bef089ba-0054-4484-b37f-d28d6b53f8bc":	{
+				"$Position":	{
+					"$x":	1490,
+					"$y":	4033
+				}
+			},
+			"Material-0ed51daa-bc48-4302-ab03-3bf51f5abcd9":	{
+				"$Position":	{
+					"$x":	2046,
+					"$y":	3979
+				}
+			},
+			"Random.Directionality-61e5131b-40c9-4874-85c7-7db37f3dbe7a":	{
+				"$Position":	{
+					"$x":	1469,
+					"$y":	4201
+				}
+			},
+			"Floor.Pattern-05a36882-e77f-4dd4-a04c-647b905e615b":	{
+				"$Position":	{
+					"$x":	2110,
+					"$y":	4224
+				}
+			},
+			"BlockSet.Pattern-e5921a0d-3293-4d85-b45a-9112e743492a":	{
+				"$Position":	{
+					"$x":	2758,
+					"$y":	4056
+				}
+			},
+			"BlockSet.BlockMask-af339d43-1ab9-427e-a28e-cfb23bf4000b":	{
+				"$Position":	{
+					"$x":	3390,
+					"$y":	4061
+				}
+			},
+			"Material-502f2ff9-fb74-4f2e-a70c-d0693d6051c4":	{
+				"$Position":	{
+					"$x":	3919,
+					"$y":	4062
+				}
+			},
+			"BlockSet.Pattern-36b85ee0-f793-423a-81a7-9b29178a7f99":	{
+				"$Position":	{
+					"$x":	2703,
+					"$y":	4409
+				}
+			},
+			"BlockSet.BlockMask-45fac132-6489-46fd-ad56-c5570249e440":	{
+				"$Position":	{
+					"$x":	3362,
+					"$y":	4419
+				}
+			},
+			"Material-26003732-65cc-42ab-a2ff-eec7ef0b45df":	{
+				"$Position":	{
+					"$x":	3906,
+					"$y":	4497
+				}
+			},
+			"ColumnLinear.Scanner-1c4d8a89-bac2-4a98-abe6-cf366c081630":	{
+				"$Position":	{
+					"$x":	1493,
+					"$y":	4379
+				}
+			},
+			"Delimiter.FieldFunction.Assignments-ef01845c-f47e-4cb0-b375-ae7f8931846f":	{
+				"$Position":	{
+					"$x":	-555,
+					"$y":	4747
+				}
+			},
+			"Constant.Assignments-d214ddda-4f3a-419f-bab1-7c67788a6207":	{
+				"$Position":	{
+					"$x":	4,
+					"$y":	4782
+				}
+			},
+			"Column.Prop-597139a4-a20d-4d53-8bfb-6bdc7861957e":	{
+				"$Position":	{
+					"$x":	747,
+					"$y":	4946
+				}
+			},
+			"Block.Column.Prop-69534a15-d65c-4b61-aa6d-ef540aff458c":	{
+				"$Position":	{
+					"$x":	1478,
+					"$y":	4826
+				}
+			},
+			"Material-f5802de0-daca-48c8-9e42-85aaf00d694b":	{
+				"$Position":	{
+					"$x":	2034,
+					"$y":	4772
+				}
+			},
+			"Random.Directionality-bb272213-29f2-404c-9b25-e95863d19800":	{
+				"$Position":	{
+					"$x":	1457,
+					"$y":	4994
+				}
+			},
+			"Imported.Pattern-c6900c12-44fa-44c4-aadb-99fd87cb344f":	{
+				"$Position":	{
+					"$x":	2154,
+					"$y":	4999
+				}
+			},
+			"ColumnLinear.Scanner-55af7636-e26f-4def-b140-7f08e113fa91":	{
+				"$Position":	{
+					"$x":	1481,
+					"$y":	5172
+				}
+			}
+		},
+		"$FloatingNodes":	[{
+				"$NodeId":	"Runtime-4a37cfbd-a6f2-4924-ae79-fe7b0cc2a612",
+				"Skip":	false,
+				"Runtime":	1,
+				"Positions":	{
+					"$NodeId":	"Mesh2DPositions-934859a3-12d8-4bd0-957c-b3dc904321f3",
+					"Type":	"Mesh2D",
+					"Skip":	false,
+					"PointsY":	0,
+					"PointGenerator":	{
+						"$NodeId":	"MeshPointGenerator-88db46be-4151-45d2-8e87-5fff284e5d6a",
+						"Type":	"Mesh",
+						"Jitter":	0.4,
+						"ScaleX":	17,
+						"ScaleY":	17,
+						"ScaleZ":	17,
+						"Seed":	"F"
+					}
+				},
+				"Assignments":	{
+					"$NodeId":	"Imported.Assignments-761fcb34-1782-4f9b-9efe-2a7c7445d317",
+					"Type":	"Imported",
+					"Name":	"Salt_Flats_Gigantic_Fossils"
+				}
+			}],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[],
+		"$WorkspaceID":	"HytaleGenerator - Assignments"
+	}
+}
