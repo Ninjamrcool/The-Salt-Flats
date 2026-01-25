@@ -3,11 +3,11 @@
   "Biomes": [{
       "Biome" : "Salt_Flats",
       "Min" : -1,
-      "Max" : 0
+      "Max" : 0.1
     },
     {
       "Biome" : "Shattered_Salt_Flats",
-      "Min" : 0,
+      "Min" : 0.1,
       "Max" : 1
     }
   ],
@@ -16,7 +16,7 @@
   "MaxBiomeEdgeDistance" : 32,
   "Density": {
     "Type" : "Imported",
-    "Name" : "Biome-Map"
+    "Name" : "Salt_Flats_Biome_Map"
 	},
   "ContentFields" : [
     {
