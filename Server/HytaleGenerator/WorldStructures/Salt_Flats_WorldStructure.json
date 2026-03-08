@@ -18,21 +18,23 @@
     "Type" : "Imported",
     "Name" : "Salt_Flats_Biome_Map"
 	},
-  "ContentFields" : [
+  "Framework" : [
     {
-      "Type" : "BaseHeight",
-      "Name" : "Base",
-      "Y" : 100
-    },
-    {
-      "Type" : "BaseHeight",
-      "Name" : "Water",
-      "Y" : 82
-    },
-    {
-      "Type" : "BaseHeight",
-      "Name" : "Bedrock",
-      "Y" : 0
+      "Type" : "DecimalConstants",
+      "Entries" : [
+        {
+          "Name" : "Base",
+          "Value" : 100
+        },
+        {
+          "Name" : "Water",
+          "Value" : 82
+        },
+        {
+          "Name" : "Bedrock",
+          "Value" : 0
+        }
+      ]
     }
   ]
 }
