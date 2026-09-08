@@ -1167,12 +1167,6 @@
 					"$y":	-5042
 				}
 			},
-			"Max.Density-546bddeb-d516-4ca0-bc40-753ef3affa9f":	{
-				"$Position":	{
-					"$x":	-400,
-					"$y":	-5567
-				}
-			},
 			"Multiplier.Density-30b56d17-9442-4ea2-a2ad-958c8991102c":	{
 				"$Position":	{
 					"$x":	245,
@@ -1225,36 +1219,6 @@
 				"$Position":	{
 					"$x":	1692,
 					"$y":	-7249
-				}
-			},
-			"CurveMapper.Density-fb93eb6f-d3ad-40f5-b8b3-0678fd39e3b8":	{
-				"$Position":	{
-					"$x":	1672,
-					"$y":	-7009
-				}
-			},
-			"Manual.Curve-d93f148c-483b-405d-b087-1d90fdb56df4":	{
-				"$Position":	{
-					"$x":	2390,
-					"$y":	-6792
-				}
-			},
-			"CurvePoint.Curve-997fba27-8c2b-4db4-8a7c-6ace10380cad":	{
-				"$Position":	{
-					"$x":	3131,
-					"$y":	-6889
-				}
-			},
-			"CurvePoint.Curve-4ca0b245-d0c5-4c10-8f28-e765386707a3":	{
-				"$Position":	{
-					"$x":	3131,
-					"$y":	-6696
-				}
-			},
-			"BaseHeight.Density-959fcaa6-89a3-4f43-9b26-af5a1e43d1f8":	{
-				"$Position":	{
-					"$x":	2512,
-					"$y":	-7164
 				}
 			},
 			"Min.Density-b8699cbd-653a-4a5a-899a-fc161073dcaa":	{
@@ -2493,10 +2457,10 @@
 					"$y":	762600
 				}
 			},
-			"Generic-569ef65e-4cef-48d2-9ae7-9e92cab5b317":	{
+			"Generic":	{
 				"$Position":	{
-					"$x":	739750,
-					"$y":	761909
+					"$x":	0,
+					"$y":	0
 				}
 			},
 			"BlockSet.BlockMask-b87bfddb-099c-4423-909b-032729029251":	{
@@ -2581,6 +2545,42 @@
 				"$Position":	{
 					"$x":	741053,
 					"$y":	763842
+				}
+			},
+			"BaseHeight.Density-959fcaa6-89a3-4f43-9b26-af5a1e43d1f8":	{
+				"$Position":	{
+					"$x":	2512,
+					"$y":	-7164
+				}
+			},
+			"CurveMapper.Density-fb93eb6f-d3ad-40f5-b8b3-0678fd39e3b8":	{
+				"$Position":	{
+					"$x":	1672,
+					"$y":	-7009
+				}
+			},
+			"Manual.Curve-d93f148c-483b-405d-b087-1d90fdb56df4":	{
+				"$Position":	{
+					"$x":	2390,
+					"$y":	-6792
+				}
+			},
+			"CurvePoint.Curve-997fba27-8c2b-4db4-8a7c-6ace10380cad":	{
+				"$Position":	{
+					"$x":	3131,
+					"$y":	-6889
+				}
+			},
+			"CurvePoint.Curve-4ca0b245-d0c5-4c10-8f28-e765386707a3":	{
+				"$Position":	{
+					"$x":	3131,
+					"$y":	-6696
+				}
+			},
+			"Max.Density-546bddeb-d516-4ca0-bc40-753ef3affa9f":	{
+				"$Position":	{
+					"$x":	-400,
+					"$y":	-5567
 				}
 			}
 		},
