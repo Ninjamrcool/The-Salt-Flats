@@ -1,13 +1,13 @@
 {
 	"$NodeId":	"Constant.Assignments-e6d0224b-0f92-4568-97a3-2d00c32cc8ec",
 	"Type":	"Constant",
-	"ExportAs":	"Salt_Flats_Sand_Dollars",
+	"ExportAs":	"Salt_Flats_White_Mushroom_Shelves",
 	"Skip":	false,
 	"Prop":	{
 		"$NodeId":	"RandomRotator.Prop-ca857ed9-9244-44d4-8853-041e76750b43",
 		"Type":	"RandomRotator",
 		"Skip":	false,
-		"Seed":	"Salt_Flats_Sand_Dollars",
+		"Seed":	"Salt_Flats_White_Mushroom_Shelves",
 		"HorizontalRotations":	true,
 		"Prop":	{
 			"$NodeId":	"Locator.Prop-69b70c44-3454-4218-a141-39224e04f7df",
@@ -19,10 +19,23 @@
 				"Type":	"Manual",
 				"Skip":	false,
 				"Blocks":	[{
+						"$NodeId":	"Block.Manual.Prop-5c21c7f9-add7-4caa-b95d-6b583824f7e2",
+						"Material":	{
+							"$NodeId":	"Material-88d90332-7637-46fb-8262-6739de4b8501",
+							"Solid":	"Plant_Crop_Mushroom_Shelve_White",
+							"SolidBottomUp":	false
+						},
+						"Position":	{
+							"$NodeId":	"Integer.Vector3d-87bc1005-0dc9-4293-ab52-25f958f3cb46",
+							"X":	0,
+							"Y":	1,
+							"Z":	0
+						}
+					}, {
 						"$NodeId":	"Block.Manual.Prop-b0d61bc2-6129-434d-98d7-7eb64e50856c",
 						"Material":	{
 							"$NodeId":	"Material-868a1a8e-4cc6-4b8d-97b3-c409aa428a21",
-							"Solid":	"Deco_Coral_Shell_Sanddollar",
+							"Solid":	"Plant_Crop_Mushroom_Shelve_White",
 							"SolidBottomUp":	false
 						},
 						"Position":	{
@@ -92,36 +105,6 @@
 	},
 	"$NodeEditorMetadata":	{
 		"$Nodes":	{
-			"Material-868a1a8e-4cc6-4b8d-97b3-c409aa428a21":	{
-				"$Position":	{
-					"$x":	1855,
-					"$y":	4606
-				}
-			},
-			"Runtime-4a37cfbd-a6f2-4924-ae79-fe7b0cc2a612":	{
-				"$Position":	{
-					"$x":	2955,
-					"$y":	15896
-				}
-			},
-			"Mesh2D.Positions-934859a3-12d8-4bd0-957c-b3dc904321f3":	{
-				"$Position":	{
-					"$x":	3627,
-					"$y":	15851
-				}
-			},
-			"Mesh.PointGenerator-88db46be-4151-45d2-8e87-5fff284e5d6a":	{
-				"$Position":	{
-					"$x":	4314,
-					"$y":	15844
-				}
-			},
-			"Imported.Assignments-761fcb34-1782-4f9b-9efe-2a7c7445d317":	{
-				"$Position":	{
-					"$x":	3587,
-					"$y":	16177
-				}
-			},
 			"Constant.Assignments-e6d0224b-0f92-4568-97a3-2d00c32cc8ec":	{
 				"$Position":	{
 					"$x":	-1362,
@@ -139,6 +122,30 @@
 				"$Position":	{
 					"$x":	138,
 					"$y":	5174
+				}
+			},
+			"Manual.Prop-49361244-9d03-49b9-912d-f70dba88512c":	{
+				"$Position":	{
+					"$x":	837,
+					"$y":	4706
+				}
+			},
+			"Block.Manual.Prop-b0d61bc2-6129-434d-98d7-7eb64e50856c":	{
+				"$Position":	{
+					"$x":	1505,
+					"$y":	4707
+				}
+			},
+			"Material-868a1a8e-4cc6-4b8d-97b3-c409aa428a21":	{
+				"$Position":	{
+					"$x":	1855,
+					"$y":	4606
+				}
+			},
+			"Integer.Vector3d-fe478026-6f71-4104-b3c6-85938425fcea":	{
+				"$Position":	{
+					"$x":	1858,
+					"$y":	4794
 				}
 			},
 			"Floor.Pattern-f132416a-bce0-4245-bf9d-b498694884f9":	{
@@ -203,26 +210,50 @@
 			},
 			"Integer.Range-9a15609f-3309-420c-b6de-8cc0bb08e3b6":	{
 				"$Position":	{
-					"$x":	1572,
-					"$y":	5817
+					"$x":	1541,
+					"$y":	5694
 				}
 			},
-			"Manual.Prop-49361244-9d03-49b9-912d-f70dba88512c":	{
+			"Runtime-4a37cfbd-a6f2-4924-ae79-fe7b0cc2a612":	{
 				"$Position":	{
-					"$x":	837,
-					"$y":	4706
+					"$x":	2955,
+					"$y":	15896
 				}
 			},
-			"Block.Manual.Prop-b0d61bc2-6129-434d-98d7-7eb64e50856c":	{
+			"Mesh2D.Positions-934859a3-12d8-4bd0-957c-b3dc904321f3":	{
+				"$Position":	{
+					"$x":	3627,
+					"$y":	15851
+				}
+			},
+			"Mesh.PointGenerator-88db46be-4151-45d2-8e87-5fff284e5d6a":	{
+				"$Position":	{
+					"$x":	4314,
+					"$y":	15844
+				}
+			},
+			"Imported.Assignments-761fcb34-1782-4f9b-9efe-2a7c7445d317":	{
+				"$Position":	{
+					"$x":	3587,
+					"$y":	16177
+				}
+			},
+			"Block.Manual.Prop-5c21c7f9-add7-4caa-b95d-6b583824f7e2":	{
 				"$Position":	{
 					"$x":	1505,
-					"$y":	4707
+					"$y":	4289
 				}
 			},
-			"Integer.Vector3d-fe478026-6f71-4104-b3c6-85938425fcea":	{
+			"Material-88d90332-7637-46fb-8262-6739de4b8501":	{
+				"$Position":	{
+					"$x":	1855,
+					"$y":	4188
+				}
+			},
+			"Integer.Vector3d-87bc1005-0dc9-4293-ab52-25f958f3cb46":	{
 				"$Position":	{
 					"$x":	1858,
-					"$y":	4794
+					"$y":	4376
 				}
 			}
 		},

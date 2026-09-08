@@ -1,13 +1,13 @@
 {
 	"$NodeId":	"Constant.Assignments-8126901d-fe1c-4793-9cc4-bed80748e487",
 	"Type":	"Constant",
-	"ExportAs":	"Salt_Flats_Small_Fossils",
+	"ExportAs":	"Salt_Flats_Shelves",
 	"Skip":	false,
 	"Prop":	{
 		"$NodeId":	"RandomRotator.Prop-1798dae8-0aa7-4ca3-a6a1-a7a355030dba",
 		"Type":	"RandomRotator",
 		"Skip":	false,
-		"Seed":	"Salt_Flats_Small_Fossils",
+		"Seed":	"Salt_Flats_Shelves",
 		"HorizontalRotations":	true,
 		"Prop":	{
 			"$NodeId":	"Mask.Prop-59dca57a-4f14-43c7-b1a6-d1fcdfc99c52",
@@ -24,7 +24,7 @@
 					"Skip":	false,
 					"WeightedPrefabPaths":	[{
 							"$NodeId":	"WeightedPath.Prefab.Prop-a9148a02-e2ab-4a6a-9b0d-2520154536c6",
-							"Path":	"Salt_Flats/SmallFossils",
+							"Path":	"Salt_Flats/Shelves",
 							"Weight":	100
 						}],
 					"LegacyPath":	false,
