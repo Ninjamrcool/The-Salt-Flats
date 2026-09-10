@@ -1,0 +1,53 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Ore_Silver_Marble.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Ore_Silver_Marble.png",
+  "Parent": "Ore_Silver_Stone",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "OreIron",
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Ore_Silver"
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": {
+                  "ItemId": "Rock_Marble_Cobble"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Rock_Marble.png"
+      }
+    ],
+    "ParticleColor": "#d0d1c1",
+    "TextureComputedColor": "#c9d0cf"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}
