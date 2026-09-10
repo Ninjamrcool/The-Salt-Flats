@@ -268,11 +268,11 @@
 						"Type":	"Manual",
 						"Points":	[{
 								"$NodeId":	"CurvePoint.Curve-839f6fc0-20d5-4710-821c-3bc2aad2cd46",
-								"In":	-70,
+								"In":	-80,
 								"Out":	1
 							}, {
 								"$NodeId":	"CurvePoint.Curve-0251af7b-0445-4592-945a-753bf917c5a2",
-								"In":	-69,
+								"In":	-79,
 								"Out":	0
 							}, {
 								"$NodeId":	"CurvePoint.Curve-958adffd-18ff-4372-90e1-6118b3f8795e",
@@ -420,6 +420,12 @@
 					"$y":	-10004
 				}
 			},
+			"Slider.Density-6d27bec2-e071-411d-8f5c-ca3a9ab78d9d":	{
+				"$Position":	{
+					"$x":	571,
+					"$y":	-10007
+				}
+			},
 			"Imported.Density-107e3aa7-5125-4d2d-900f-3c7553431813":	{
 				"$Position":	{
 					"$x":	1198,
@@ -535,6 +541,12 @@
 					"$y":	-9093
 				}
 			},
+			"FastGradientWarp.Density-cbf5b8ef-58d7-4807-a1a1-9c83c48754e3":	{
+				"$Position":	{
+					"$x":	4630,
+					"$y":	-9090
+				}
+			},
 			"SimplexNoise2D.Density-06f22fe4-0f4c-4bfb-b182-2cb5d145d6ef":	{
 				"$Position":	{
 					"$x":	5355,
@@ -599,18 +611,6 @@
 				"$Position":	{
 					"$x":	-258,
 					"$y":	-7474
-				}
-			},
-			"FastGradientWarp.Density-cbf5b8ef-58d7-4807-a1a1-9c83c48754e3":	{
-				"$Position":	{
-					"$x":	4630,
-					"$y":	-9090
-				}
-			},
-			"Slider.Density-6d27bec2-e071-411d-8f5c-ca3a9ab78d9d":	{
-				"$Position":	{
-					"$x":	571,
-					"$y":	-10007
 				}
 			}
 		},
