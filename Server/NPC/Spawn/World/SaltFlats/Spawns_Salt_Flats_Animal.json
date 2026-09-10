@@ -12,6 +12,11 @@
       "Weight": 1,
       "Id": "Vulture",
       "SpawnBlockSet": "Rock"
+    },
+    {
+      "Id": "Hawk",
+      "Weight": 1,
+      "SpawnBlockSet": "Rock"
     }
   ]
 }

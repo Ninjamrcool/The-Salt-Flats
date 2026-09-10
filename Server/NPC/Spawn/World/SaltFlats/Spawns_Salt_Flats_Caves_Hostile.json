@@ -1,0 +1,27 @@
+{
+  "Environments": [
+    "Env_Salt_Flats_Caves"
+  ],
+  "NPCs": [
+    {
+      "Weight": 2,
+      "Id": "Rat",
+      "SpawnBlockSet": "Rock"
+    },
+    {
+      "Weight": 1,
+      "Id": "Ghoul",
+      "SpawnBlockSet": "Rock"
+    },
+    {
+      "Id": "Goblin_Miner",
+      "Weight": 1,
+      "SpawnBlockSet": "Rock"
+    },
+    {
+      "Id": "Goblin_Thief",
+      "Weight": 1,
+      "SpawnBlockSet": "Rock"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Environments": [
+    "Env_Salt_Flats_Caves"
+  ],
+  "NPCs": [
+    {
+      "Weight": 1,
+      "Id": "Jellyfish_Cyan",
+      "SpawnFluidTag": "Water"
+    },
+    {
+      "Weight": 1,
+      "Id": "Salmon",
+      "SpawnFluidTag": "Water"
+    },
+    {
+      "Id": "Tang_Sailfin",
+      "Weight": 1,
+      "SpawnFluidTag": "Water"
+    }
+  ]
+}
