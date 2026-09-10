@@ -1,0 +1,246 @@
+{
+  "WaterTint": "#1983d9",
+  "SpawnDensity": 0.6,
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Salt_Flats_Sunny",
+        "Weight": 35
+      },
+      {
+        "WeatherId": "Salt_Flats_Sand_Storm",
+        "Weight": 5
+      }
+    ]
+  }
+}

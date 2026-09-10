@@ -137,16 +137,8 @@
       "Color": "rgba(#ffffff, 0)"
     },
     {
-      "Hour": 21,
-      "Color": "#db7753ff"
-    },
-    {
       "Hour": 17,
       "Color": "rgba(#000000, 0)"
-    },
-    {
-      "Hour": 2,
-      "Color": "#db7753ff"
     }
   ],
   "SunScales": [
@@ -347,25 +339,13 @@
   ],
   "FogColors": [
     {
-      "Hour": 19,
-      "Color": "#d3d3d3"
-    },
-    {
       "Hour": 2,
-      "Color": "#838383"
-    },
-    {
-      "Hour": 4,
-      "Color": "#c7c7c7"
-    },
-    {
-      "Hour": 21,
-      "Color": "#836b7e"
+      "Color": "#6a6a6a"
     }
   ],
   "FogDistance": [
-    -500,
-    500
+    -250,
+    150
   ],
   "SunGlowColors": [
     {
@@ -400,15 +380,15 @@
     },
     {
       "Hour": 1,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 2,
-      "Value": 5
+      "Value": 7
     },
     {
       "Hour": 3,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 4,
@@ -416,15 +396,15 @@
     },
     {
       "Hour": 5,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 6,
-      "Value": 5
+      "Value": 7
     },
     {
       "Hour": 7,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 8,
@@ -432,15 +412,15 @@
     },
     {
       "Hour": 9,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 10,
-      "Value": 5
+      "Value": 7
     },
     {
       "Hour": 11,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 12,
@@ -448,15 +428,15 @@
     },
     {
       "Hour": 13,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 14,
-      "Value": 5
+      "Value": 7
     },
     {
       "Hour": 15,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 16,
@@ -464,15 +444,15 @@
     },
     {
       "Hour": 17,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 18,
-      "Value": 5
+      "Value": 7
     },
     {
       "Hour": 19,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 20,
@@ -480,15 +460,15 @@
     },
     {
       "Hour": 21,
-      "Value": 5
+      "Value": 6
     },
     {
       "Hour": 22,
-      "Value": 5
+      "Value": 7
     },
     {
       "Hour": 23,
-      "Value": 5
+      "Value": 6
     }
   ]
 }

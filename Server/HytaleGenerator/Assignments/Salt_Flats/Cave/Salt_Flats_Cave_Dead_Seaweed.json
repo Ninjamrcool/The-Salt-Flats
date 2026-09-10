@@ -23,7 +23,7 @@
 						"Material":	{
 							"$NodeId":	"Material-b7c32dc5-24c9-46e5-8dd1-77d502bfae93",
 							"Solid":	"Plant_Seaweed_Dead_Short",
-							"Fluid":	"",
+							"Fluid":	"Water_Source",
 							"SolidBottomUp":	false
 						},
 						"Position":	{
@@ -178,6 +178,18 @@
 					"$y":	4704
 				}
 			},
+			"Material-28586487-373a-40cd-90a7-06e146014cbf":	{
+				"$Position":	{
+					"$x":	3897,
+					"$y":	4910
+				}
+			},
+			"Material-71cbb9b6-b479-45e6-9896-be2f42972bc8":	{
+				"$Position":	{
+					"$x":	3897,
+					"$y":	5116
+				}
+			},
 			"Random.Scanner-0f50fb2e-137f-4623-9b30-493f4a9a9e61":	{
 				"$Position":	{
 					"$x":	2030,
@@ -230,18 +242,6 @@
 				"$Position":	{
 					"$x":	747937,
 					"$y":	774565
-				}
-			},
-			"Material-28586487-373a-40cd-90a7-06e146014cbf":	{
-				"$Position":	{
-					"$x":	3897,
-					"$y":	4910
-				}
-			},
-			"Material-71cbb9b6-b479-45e6-9896-be2f42972bc8":	{
-				"$Position":	{
-					"$x":	3897,
-					"$y":	5116
 				}
 			}
 		},

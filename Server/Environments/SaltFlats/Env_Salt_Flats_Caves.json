@@ -1,0 +1,150 @@
+{
+  "WaterTint": "#1983d9",
+  "SpawnDensity": 0.4,
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "Salt_Flats_Cave",
+        "Weight": 1
+      }
+    ]
+  }
+}

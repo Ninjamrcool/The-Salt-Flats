@@ -1229,7 +1229,7 @@
 		"$NodeId":	"Constant.EnvironmentProvider-f1582e2c-e5c9-40c2-a5d8-a6fc7a99e611",
 		"Type":	"Constant",
 		"Skip":	false,
-		"Environment":	"Env_Zone2_Salt_Flats"
+		"Environment":	"Env_Salt_Flats"
 	},
 	"TintProvider":	{
 		"$NodeId":	"DensityDelimited.TintProvider-fbb5769c-cf9f-40c0-b686-b83a0d5c293f",
@@ -1317,6 +1317,42 @@
 				"$Position":	{
 					"$x":	245,
 					"$y":	-7334
+				}
+			},
+			"Clamp.Density-b52b7b75-d7c8-45a4-93c6-e5bc2e41072b":	{
+				"$Position":	{
+					"$x":	980,
+					"$y":	-7546
+				}
+			},
+			"Multiplier.Density-c21e455b-5aff-4586-94a4-937f7d46c52c":	{
+				"$Position":	{
+					"$x":	1628,
+					"$y":	-7551
+				}
+			},
+			"Constant.Density-d2fb31a8-392b-4db3-a9ac-b46e4f73c3a4":	{
+				"$Position":	{
+					"$x":	2296,
+					"$y":	-7782
+				}
+			},
+			"Sum.Density-eb2fb19d-78fd-45e5-a540-4bac6aa9dc1a":	{
+				"$Position":	{
+					"$x":	2289,
+					"$y":	-7557
+				}
+			},
+			"Constant.Density-215fb00b-483f-4215-8050-a5dc2663286a":	{
+				"$Position":	{
+					"$x":	2929,
+					"$y":	-7706
+				}
+			},
+			"Imported.Density-48551f10-eb20-432b-b2dc-3403649f3eb8":	{
+				"$Position":	{
+					"$x":	2937,
+					"$y":	-7423
 				}
 			},
 			"Sum.Density-4b5f6621-559e-4493-93df-d0c6746023b8":	{
@@ -2655,42 +2691,6 @@
 				"$Position":	{
 					"$x":	-1903,
 					"$y":	-2224
-				}
-			},
-			"Clamp.Density-b52b7b75-d7c8-45a4-93c6-e5bc2e41072b":	{
-				"$Position":	{
-					"$x":	980,
-					"$y":	-7546
-				}
-			},
-			"Multiplier.Density-c21e455b-5aff-4586-94a4-937f7d46c52c":	{
-				"$Position":	{
-					"$x":	1628,
-					"$y":	-7551
-				}
-			},
-			"Constant.Density-d2fb31a8-392b-4db3-a9ac-b46e4f73c3a4":	{
-				"$Position":	{
-					"$x":	2296,
-					"$y":	-7782
-				}
-			},
-			"Sum.Density-eb2fb19d-78fd-45e5-a540-4bac6aa9dc1a":	{
-				"$Position":	{
-					"$x":	2289,
-					"$y":	-7557
-				}
-			},
-			"Constant.Density-215fb00b-483f-4215-8050-a5dc2663286a":	{
-				"$Position":	{
-					"$x":	2929,
-					"$y":	-7706
-				}
-			},
-			"Imported.Density-48551f10-eb20-432b-b2dc-3403649f3eb8":	{
-				"$Position":	{
-					"$x":	2937,
-					"$y":	-7423
 				}
 			},
 			"CellNoise2D.Density-b8013980-7701-4d27-bb6b-380d9edebb04":	{

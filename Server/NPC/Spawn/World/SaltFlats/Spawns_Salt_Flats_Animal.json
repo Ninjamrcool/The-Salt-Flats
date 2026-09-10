@@ -1,0 +1,17 @@
+{
+  "Environments": [
+    "Env_Salt_Flats"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Rock_Sandstone_Red",
+      "Id": "Gecko"
+    },
+    {
+      "Weight": 1,
+      "Id": "Vulture",
+      "SpawnBlockSet": "Rock"
+    }
+  ]
+}
