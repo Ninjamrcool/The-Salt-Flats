@@ -1,0 +1,69 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Plant_Moss_Short_White.name"
+  },
+  "Parent": "Plant_Moss_Rug_Green",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Plant_Moss_White",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Gathering": {
+      "Tools": [
+        {
+          "Type": "Shears"
+        }
+      ],
+      "Soft": {
+        "DropList": "Plant_Moss_Block_White"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "CustomModel": "Blocks/Foliage/Plants/Cross_10px.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Plants/Cross_10px_Textures/Moss_GS.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Plant_Small",
+    "RandomRotation": "YawStep1",
+    "ParticleColor": "#feffe7",
+    "Tint": [
+      "#feffe7"
+    ],
+    "TextureComputedColor": "#A9A9A9"
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Moss_Short_White.png",
+  "ItemLevel": 38,
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

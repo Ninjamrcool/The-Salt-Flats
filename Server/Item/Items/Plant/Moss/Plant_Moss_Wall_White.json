@@ -1,0 +1,52 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Plant_Moss_Wall_White.name"
+  },
+  "Parent": "Plant_Moss_Wall_Green",
+  "BlockType": {
+    "Gathering": {
+      "Tools": [
+        {
+          "Type": "Shears"
+        }
+      ],
+      "Soft": {
+        "DropList": "Plant_Moss_Block_White"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Plants/Moss_Wall_Textures/Moss_GS.png",
+        "Weight": 1
+      },
+      {
+        "Texture": "Blocks/Foliage/Plants/Moss_Wall_Textures/Moss_GS2.png",
+        "Weight": 1
+      },
+      {
+        "Texture": "Blocks/Foliage/Plants/Moss_Wall_Textures/Moss_GS3.png",
+        "Weight": 2
+      }
+    ],
+    "Tint": [
+      "#feffe7"
+    ],
+    "ParticleColor": "#feffe7",
+    "TextureComputedColor": "#9C9C9C"
+  },
+  "IconProperties": {
+    "Scale": 0.405,
+    "Rotation": [
+      15.73,
+      2.23,
+      0
+    ],
+    "Translation": [
+      -1.81,
+      -9.61
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Moss_Wall_White.png",
+  "ItemLevel": 40
+}
