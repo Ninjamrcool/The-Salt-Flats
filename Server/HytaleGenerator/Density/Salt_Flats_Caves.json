@@ -301,14 +301,9 @@
 			"Type":	"Multiplier",
 			"Skip":	false,
 			"Inputs":	[{
-					"$NodeId":	"Constant.Density-c644f800-b438-450e-a539-29d5190307fc",
-					"Type":	"Constant",
-					"Skip":	false,
-					"Value":	0
-				}, {
 					"$NodeId":	"Exported.Density-ebc9cd79-c01b-49f0-900f-cd5e1d62d63a",
 					"Type":	"Exported",
-					"ExportAs":	"Salt_Flats_Cave_Biomes_Infested_Caves",
+					"ExportAs":	"Salt_Flats_Cave_Biomes",
 					"SingleInstance":	false,
 					"Skip":	false,
 					"Inputs":	[{
@@ -319,8 +314,16 @@
 								"$NodeId":	"Manual.Curve-2a9e90d1-bfb2-4df7-8627-9b9e1150aec7",
 								"Type":	"Manual",
 								"Points":	[{
-										"$NodeId":	"CurvePoint.Curve-7a4d6b92-10dd-4d00-a160-2ee2915767b3",
+										"$NodeId":	"CurvePoint.Curve-0abe5f2f-7d82-4638-8186-4c94357b1c83",
 										"In":	-1,
+										"Out":	-1
+									}, {
+										"$NodeId":	"CurvePoint.Curve-6320799c-7c4f-42c3-b236-f81b0cfe0cfa",
+										"In":	-0.35,
+										"Out":	-1
+									}, {
+										"$NodeId":	"CurvePoint.Curve-7a4d6b92-10dd-4d00-a160-2ee2915767b3",
+										"In":	-0.3499,
 										"Out":	0
 									}, {
 										"$NodeId":	"CurvePoint.Curve-e4b13696-ccb7-42df-9e70-1cbeaa75fb8b",
@@ -343,9 +346,82 @@
 									"Lacunarity":	2,
 									"Persistence":	0.5,
 									"Octaves":	2,
-									"ScaleXZ":	125,
-									"ScaleY":	125,
+									"ScaleXZ":	150,
+									"ScaleY":	150,
 									"Seed":	"Salt Flats Cave Biomes"
+								}]
+						}]
+				}, {
+					"$NodeId":	"Constant.Density-c644f800-b438-450e-a539-29d5190307fc",
+					"Type":	"Constant",
+					"Skip":	false,
+					"Value":	0
+				}, {
+					"$NodeId":	"Exported.Density-d6cb0f46-968a-43f6-be91-c5c41dc11b18",
+					"Type":	"Exported",
+					"ExportAs":	"Salt_Flats_Cave_Biomes_Infested_Caves",
+					"SingleInstance":	false,
+					"Skip":	false,
+					"Inputs":	[{
+							"$NodeId":	"CurveMapper.Density-51940003-8efc-4f0e-8f6b-47ffe8b86941",
+							"Type":	"CurveMapper",
+							"Skip":	false,
+							"Curve":	{
+								"$NodeId":	"Manual.Curve-b686c852-98d8-4450-b49c-9ac8766991d6",
+								"Type":	"Manual",
+								"Points":	[{
+										"$NodeId":	"CurvePoint.Curve-2e87919d-212a-422d-ad46-591779ac44d1",
+										"In":	0.999,
+										"Out":	0
+									}, {
+										"$NodeId":	"CurvePoint.Curve-232e1d0f-e52c-4fe5-ae93-81ae58e56d3b",
+										"In":	1,
+										"Out":	1
+									}, {
+										"$NodeId":	"CurvePoint.Curve-f33ce43c-4544-4e0b-9be3-41d20b22c406",
+										"In":	1.001,
+										"Out":	0
+									}]
+							},
+							"Inputs":	[{
+									"$NodeId":	"Imported.Density-fed76fa5-9ba2-4a0c-9cbf-b9ae8357a2ea",
+									"Type":	"Imported",
+									"Skip":	false,
+									"Name":	"Salt_Flats_Cave_Biomes"
+								}]
+						}]
+				}, {
+					"$NodeId":	"Exported.Density-0e5f6511-c34b-4fa8-8652-ebcf1e581346",
+					"Type":	"Exported",
+					"ExportAs":	"Salt_Flats_Cave_Biomes_Shimmering_Caves",
+					"SingleInstance":	false,
+					"Skip":	false,
+					"Inputs":	[{
+							"$NodeId":	"CurveMapper.Density-ea71f3cc-24c2-40b8-b269-70d3a5c42fd3",
+							"Type":	"CurveMapper",
+							"Skip":	false,
+							"Curve":	{
+								"$NodeId":	"Manual.Curve-20ab1cc6-4856-4ada-a4f4-5366ed85115e",
+								"Type":	"Manual",
+								"Points":	[{
+										"$NodeId":	"CurvePoint.Curve-ac2c2281-87ee-4bbe-87ba-120e2b04d8e4",
+										"In":	-0.999,
+										"Out":	0
+									}, {
+										"$NodeId":	"CurvePoint.Curve-c6aa9135-1fb7-4cff-af21-4511ad0bc966",
+										"In":	-1,
+										"Out":	1
+									}, {
+										"$NodeId":	"CurvePoint.Curve-8238a6d6-cce4-4e82-868a-b46ff8b4dac8",
+										"In":	-1.001,
+										"Out":	0
+									}]
+							},
+							"Inputs":	[{
+									"$NodeId":	"Imported.Density-b8486c1d-dadd-4e51-8d73-842e51c7689b",
+									"Type":	"Imported",
+									"Skip":	false,
+									"Name":	"Salt_Flats_Cave_Biomes"
 								}]
 						}]
 				}]
@@ -668,62 +744,158 @@
 			},
 			"Multiplier.Density-9d243d00-cc8e-425e-9a87-cfaa25ed9c90":	{
 				"$Position":	{
-					"$x":	-1755,
-					"$y":	-6030
+					"$x":	-1749,
+					"$y":	-4860
 				}
 			},
 			"Constant.Density-c644f800-b438-450e-a539-29d5190307fc":	{
 				"$Position":	{
-					"$x":	-1091,
-					"$y":	-6030
+					"$x":	-1085,
+					"$y":	-4860
 				}
 			},
 			"Exported.Density-ebc9cd79-c01b-49f0-900f-cd5e1d62d63a":	{
 				"$Position":	{
-					"$x":	-1024,
-					"$y":	-5655
+					"$x":	-1085,
+					"$y":	-5944
 				}
 			},
 			"CurveMapper.Density-2a9fd306-3b7a-4752-9011-4dea7f9bc279":	{
 				"$Position":	{
-					"$x":	-339,
-					"$y":	-5655
+					"$x":	-400,
+					"$y":	-5944
 				}
 			},
 			"Manual.Curve-2a9e90d1-bfb2-4df7-8627-9b9e1150aec7":	{
 				"$Position":	{
-					"$x":	408,
-					"$y":	-5257
-				}
-			},
-			"CurvePoint.Curve-7a4d6b92-10dd-4d00-a160-2ee2915767b3":	{
-				"$Position":	{
-					"$x":	1334,
-					"$y":	-5257
+					"$x":	346,
+					"$y":	-5546
 				}
 			},
 			"CurvePoint.Curve-e4b13696-ccb7-42df-9e70-1cbeaa75fb8b":	{
 				"$Position":	{
-					"$x":	1334,
-					"$y":	-5073
+					"$x":	1272,
+					"$y":	-5362
 				}
 			},
 			"CurvePoint.Curve-d009091b-84de-4211-adae-231b77dffaba":	{
 				"$Position":	{
-					"$x":	1334,
-					"$y":	-4878
+					"$x":	1272,
+					"$y":	-5167
 				}
 			},
 			"CurvePoint.Curve-aa3a94ea-f3ca-4706-99b5-ee1643e94fbc":	{
 				"$Position":	{
-					"$x":	1334,
-					"$y":	-4703
+					"$x":	1272,
+					"$y":	-4992
 				}
 			},
 			"SimplexNoise3D.Density-195e7dc2-b95e-488e-8c67-1c37c908a406":	{
 				"$Position":	{
-					"$x":	408,
-					"$y":	-5655
+					"$x":	346,
+					"$y":	-5944
+				}
+			},
+			"Exported.Density-d6cb0f46-968a-43f6-be91-c5c41dc11b18":	{
+				"$Position":	{
+					"$x":	-1085,
+					"$y":	-4340
+				}
+			},
+			"CurveMapper.Density-51940003-8efc-4f0e-8f6b-47ffe8b86941":	{
+				"$Position":	{
+					"$x":	-364,
+					"$y":	-4340
+				}
+			},
+			"Manual.Curve-b686c852-98d8-4450-b49c-9ac8766991d6":	{
+				"$Position":	{
+					"$x":	298,
+					"$y":	-4113
+				}
+			},
+			"CurvePoint.Curve-232e1d0f-e52c-4fe5-ae93-81ae58e56d3b":	{
+				"$Position":	{
+					"$x":	1224,
+					"$y":	-3924
+				}
+			},
+			"CurvePoint.Curve-2e87919d-212a-422d-ad46-591779ac44d1":	{
+				"$Position":	{
+					"$x":	1224,
+					"$y":	-4113
+				}
+			},
+			"CurvePoint.Curve-f33ce43c-4544-4e0b-9be3-41d20b22c406":	{
+				"$Position":	{
+					"$x":	1224,
+					"$y":	-3734
+				}
+			},
+			"Imported.Density-fed76fa5-9ba2-4a0c-9cbf-b9ae8357a2ea":	{
+				"$Position":	{
+					"$x":	298,
+					"$y":	-4340
+				}
+			},
+			"CurvePoint.Curve-0abe5f2f-7d82-4638-8186-4c94357b1c83":	{
+				"$Position":	{
+					"$x":	1272,
+					"$y":	-5914
+				}
+			},
+			"CurvePoint.Curve-7a4d6b92-10dd-4d00-a160-2ee2915767b3":	{
+				"$Position":	{
+					"$x":	1272,
+					"$y":	-5546
+				}
+			},
+			"CurvePoint.Curve-6320799c-7c4f-42c3-b236-f81b0cfe0cfa":	{
+				"$Position":	{
+					"$x":	1272,
+					"$y":	-5730
+				}
+			},
+			"Exported.Density-0e5f6511-c34b-4fa8-8652-ebcf1e581346":	{
+				"$Position":	{
+					"$x":	-1079,
+					"$y":	-2983
+				}
+			},
+			"CurveMapper.Density-ea71f3cc-24c2-40b8-b269-70d3a5c42fd3":	{
+				"$Position":	{
+					"$x":	-358,
+					"$y":	-2983
+				}
+			},
+			"Manual.Curve-20ab1cc6-4856-4ada-a4f4-5366ed85115e":	{
+				"$Position":	{
+					"$x":	303,
+					"$y":	-2756
+				}
+			},
+			"CurvePoint.Curve-ac2c2281-87ee-4bbe-87ba-120e2b04d8e4":	{
+				"$Position":	{
+					"$x":	1229,
+					"$y":	-2756
+				}
+			},
+			"CurvePoint.Curve-c6aa9135-1fb7-4cff-af21-4511ad0bc966":	{
+				"$Position":	{
+					"$x":	1229,
+					"$y":	-2567
+				}
+			},
+			"CurvePoint.Curve-8238a6d6-cce4-4e82-868a-b46ff8b4dac8":	{
+				"$Position":	{
+					"$x":	1229,
+					"$y":	-2377
+				}
+			},
+			"Imported.Density-b8486c1d-dadd-4e51-8d73-842e51c7689b":	{
+				"$Position":	{
+					"$x":	303,
+					"$y":	-2983
 				}
 			}
 		},
@@ -800,16 +972,24 @@
 					"$y":	-6335.0625
 				},
 				"$width":	3743.625,
-				"$height":	2447.75,
+				"$height":	4591.625,
 				"$name":	"Cave Biomes (No effect on density, just for exporting)"
 			}, {
 				"$Position":	{
-					"$x":	-1091.75,
-					"$y":	-5719.9375
+					"$x":	-1147.625,
+					"$y":	-4549.9375
 				},
-				"$width":	2909.75,
+				"$width":	2881.9375,
 				"$height":	1217.5625,
 				"$name":	"Infested Caves"
+			}, {
+				"$Position":	{
+					"$x":	-1142.125,
+					"$y":	-3193.1875
+				},
+				"$width":	2881.9375,
+				"$height":	1217.5625,
+				"$name":	"Shimmering Caves"
 			}],
 		"$Comments":	[{
 				"$Position":	{
