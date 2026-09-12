@@ -1755,9 +1755,9 @@
 						"Skip":	false,
 						"Scale":	{
 							"$NodeId":	"Decimal.Vector3d-c4d0ef54-27b8-4e13-8d56-de4c50ae8197",
-							"X":	12,
+							"X":	15,
 							"Y":	1,
-							"Z":	12
+							"Z":	15
 						},
 						"Positions":	{
 							"$NodeId":	"BaseHeight.Positions-59e7a6c8-8d2e-460e-9e72-3bacc5fae989",
@@ -1942,6 +1942,56 @@
 								"Name":	"Salt_Flats_White_Mushroom_Shelves"
 							}
 						}]
+				}
+			}
+		}, {
+			"$NodeId":	"Runtime-63254c30-a557-443a-9cb0-0684cc80091c",
+			"Skip":	false,
+			"Runtime":	1,
+			"PropDistribution":	{
+				"$NodeId":	"Assigned.PropDistribution-6ad45d32-2bb6-4c6b-b408-1cf354037820",
+				"Type":	"Assigned",
+				"Skip":	false,
+				"OverrideAllProps":	false,
+				"PropDistribution":	{
+					"$NodeId":	"Constant.PropDistribution-bf928420-c27e-4a61-af8e-eee34447507f",
+					"Type":	"Constant",
+					"Skip":	false,
+					"Positions":	{
+						"$NodeId":	"Scaler.Positions-d4ba3d6d-0f36-4f2e-9d4f-b0c4807e247b",
+						"Type":	"Scaler",
+						"Skip":	false,
+						"Scale":	{
+							"$NodeId":	"Decimal.Vector3d-be845f6f-9b74-490f-9085-d5e0e447f7e1",
+							"X":	30,
+							"Y":	1,
+							"Z":	30
+						},
+						"Positions":	{
+							"$NodeId":	"BaseHeight.Positions-f8ec8c5a-f8a4-4dbe-81b8-fa8652e25a3b",
+							"Type":	"BaseHeight",
+							"Skip":	false,
+							"BedName":	"Base",
+							"Positions":	{
+								"$NodeId":	"Jitter2d.Positions-3f5c600b-6034-4c53-852b-ce737cfe476b",
+								"Type":	"Jitter2d",
+								"Skip":	false,
+								"Magnitude":	0.3,
+								"Seed":	"Salt_Flats_Shimmering_Cave_Calcite_Ruins",
+								"Positions":	{
+									"$NodeId":	"SquareGrid2d.Positions-82187245-a090-4d25-b4b6-7718afd71d16",
+									"Type":	"SquareGrid2d",
+									"Skip":	false
+								}
+							}
+						}
+					}
+				},
+				"Assignments":	{
+					"$NodeId":	"Imported.Assignments-92896d7d-6859-4b8d-bda4-00fa4ef2d184",
+					"Type":	"Imported",
+					"Skip":	false,
+					"Name":	"Salt_Flats_Shimmering_Cave_Calcite_Ruins"
 				}
 			}
 		}, {
@@ -5020,6 +5070,60 @@
 					"$x":	-14116,
 					"$y":	29731
 				}
+			},
+			"Runtime-63254c30-a557-443a-9cb0-0684cc80091c":	{
+				"$Position":	{
+					"$x":	-15574,
+					"$y":	30336
+				}
+			},
+			"Assigned.PropDistribution-6ad45d32-2bb6-4c6b-b408-1cf354037820":	{
+				"$Position":	{
+					"$x":	-14885,
+					"$y":	30412
+				}
+			},
+			"Constant.PropDistribution-bf928420-c27e-4a61-af8e-eee34447507f":	{
+				"$Position":	{
+					"$x":	-14116,
+					"$y":	30410
+				}
+			},
+			"Scaler.Positions-d4ba3d6d-0f36-4f2e-9d4f-b0c4807e247b":	{
+				"$Position":	{
+					"$x":	-13395,
+					"$y":	30410
+				}
+			},
+			"Decimal.Vector3d-be845f6f-9b74-490f-9085-d5e0e447f7e1":	{
+				"$Position":	{
+					"$x":	-12662,
+					"$y":	30625
+				}
+			},
+			"BaseHeight.Positions-f8ec8c5a-f8a4-4dbe-81b8-fa8652e25a3b":	{
+				"$Position":	{
+					"$x":	-12656,
+					"$y":	30411
+				}
+			},
+			"Jitter2d.Positions-3f5c600b-6034-4c53-852b-ce737cfe476b":	{
+				"$Position":	{
+					"$x":	-11979,
+					"$y":	30410
+				}
+			},
+			"SquareGrid2d.Positions-82187245-a090-4d25-b4b6-7718afd71d16":	{
+				"$Position":	{
+					"$x":	-11228,
+					"$y":	30411
+				}
+			},
+			"Imported.Assignments-92896d7d-6859-4b8d-bda4-00fa4ef2d184":	{
+				"$Position":	{
+					"$x":	-14116,
+					"$y":	30663
+				}
 			}
 		},
 		"$FloatingNodes":	[{
@@ -5398,7 +5502,7 @@
 					"$y":	26995.75
 				},
 				"$width":	5455.875,
-				"$height":	3228.375,
+				"$height":	4081.375,
 				"$name":	"Shimmering Caves"
 			}, {
 				"$Position":	{
@@ -5415,7 +5519,15 @@
 				},
 				"$width":	5089.625,
 				"$height":	807.5,
-				"$name":	"Ground Decorators"
+				"$name":	"Calcite Pillars"
+			}, {
+				"$Position":	{
+					"$x":	-15727.25,
+					"$y":	30159.5625
+				},
+				"$width":	5089.625,
+				"$height":	807.5,
+				"$name":	"Calcite Ruins"
 			}],
 		"$Comments":	[{
 				"$Position":	{
