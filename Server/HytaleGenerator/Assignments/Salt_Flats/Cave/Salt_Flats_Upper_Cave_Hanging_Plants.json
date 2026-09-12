@@ -90,14 +90,6 @@
 						"$NodeId":	"BlockSet.BlockMask-46e4aee2-d6c2-4ca1-b8c2-aa6f81cd0d21",
 						"Inclusive":	true,
 						"Materials":	[{
-								"$NodeId":	"Material-ca4acd0d-ad5f-4d52-ba3c-5e4302e953c7",
-								"Solid":	"Soil_Clay_White",
-								"SolidBottomUp":	false
-							}, {
-								"$NodeId":	"Material-28586487-373a-40cd-90a7-06e146014cbf",
-								"Solid":	"Rock_Chalk",
-								"SolidBottomUp":	false
-							}, {
 								"$NodeId":	"Material-71cbb9b6-b479-45e6-9896-be2f42972bc8",
 								"Solid":	"Rock_Marble",
 								"SolidBottomUp":	false
@@ -129,7 +121,7 @@
 				"Range":	{
 					"$NodeId":	"Integer.Range-6f46c432-d697-4183-b553-8d8a4c993292",
 					"MinInclusive":	-15,
-					"MaxExclusive":	0
+					"MaxExclusive":	10
 				}
 			}
 		},
@@ -252,22 +244,10 @@
 					"$y":	4704
 				}
 			},
-			"Material-ca4acd0d-ad5f-4d52-ba3c-5e4302e953c7":	{
-				"$Position":	{
-					"$x":	3897,
-					"$y":	4704
-				}
-			},
-			"Material-28586487-373a-40cd-90a7-06e146014cbf":	{
-				"$Position":	{
-					"$x":	3897,
-					"$y":	4910
-				}
-			},
 			"Material-71cbb9b6-b479-45e6-9896-be2f42972bc8":	{
 				"$Position":	{
-					"$x":	3897,
-					"$y":	5116
+					"$x":	3896,
+					"$y":	4704
 				}
 			},
 			"BlockSet.Pattern-d2b02cf5-42fb-4288-9084-c01945ac9522":	{
@@ -393,6 +373,15 @@
 				"$height":	150,
 				"$name":	"Comment",
 				"$text":	"For some reason using BaseHeightName \"Base\" wasnt working"
+			}, {
+				"$Position":	{
+					"$x":	3897,
+					"$y":	4541.6875
+				},
+				"$width":	250,
+				"$height":	150,
+				"$name":	"Comment",
+				"$text":	"Marble only so it doesnt spawn under ravine shelves"
 			}],
 		"$WorkspaceID":	"HytaleGenerator - Assignments"
 	}

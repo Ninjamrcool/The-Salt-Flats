@@ -217,6 +217,10 @@
 									"$NodeId":	"BlockSet.BlockMask-d9543d2d-9328-41c1-b0df-8d41651d64c4",
 									"Inclusive":	true,
 									"Materials":	[{
+											"$NodeId":	"Material-d9c31a9b-2e05-4187-907c-5ded06328ea3",
+											"Solid":	"Ore_Silver_Marble",
+											"SolidBottomUp":	false
+										}, {
 											"$NodeId":	"Material-916c05a3-80cb-4cf1-8efb-e902e315dc0d",
 											"Solid":	"Ore_Iron_Marble",
 											"SolidBottomUp":	false
@@ -400,146 +404,248 @@
 			},
 			"Union.Prop-1c7e0dc6-eccc-4b96-ad28-e5932cd11bcf":	{
 				"$Position":	{
-					"$x":	2650,
-					"$y":	-4126
+					"$x":	2613,
+					"$y":	-4245
 				}
 			},
 			"Offset.Prop-67082e8a-2e1b-45e3-9427-16e381568ee1":	{
 				"$Position":	{
-					"$x":	3296,
-					"$y":	-4128
+					"$x":	3259,
+					"$y":	-4247
 				}
 			},
 			"Decimal.Vector3d-9b8b9d79-2621-4fec-a1f8-e7fa4d34a498":	{
 				"$Position":	{
-					"$x":	3966,
-					"$y":	-4364
+					"$x":	3929,
+					"$y":	-4483
 				}
 			},
 			"Union.Prop-9d4a36bd-133f-4511-aa49-3869e621afa4":	{
 				"$Position":	{
-					"$x":	3966,
-					"$y":	-4126
+					"$x":	3929,
+					"$y":	-4245
+				}
+			},
+			"Offset.Prop-87e71084-0dc2-40ca-9405-f371849d1658":	{
+				"$Position":	{
+					"$x":	4613,
+					"$y":	-4247
+				}
+			},
+			"Decimal.Vector3d-6b447923-dba1-4897-9e8d-4a13cf0dedbe":	{
+				"$Position":	{
+					"$x":	5307,
+					"$y":	-4423
 				}
 			},
 			"Prefab.Prop-495e150a-03c8-4308-acfb-bb6edbc2554a":	{
 				"$Position":	{
-					"$x":	5337,
-					"$y":	-4089
+					"$x":	5300,
+					"$y":	-4208
 				}
 			},
 			"WeightedPath.Prefab.Prop-dda4a74f-544e-4fe3-bf7e-2a59731dd336":	{
 				"$Position":	{
-					"$x":	6174,
-					"$y":	-4089
+					"$x":	6137,
+					"$y":	-4208
 				}
 			},
 			"Offset.Prop-3252e572-7d51-47c1-ab3c-c5a53de3a74d":	{
 				"$Position":	{
-					"$x":	4650,
-					"$y":	-3646
+					"$x":	4613,
+					"$y":	-3765
 				}
 			},
 			"Decimal.Vector3d-ccd633c2-197f-4e10-a980-10dbd4c681bb":	{
 				"$Position":	{
-					"$x":	5320,
-					"$y":	-3731
+					"$x":	5283,
+					"$y":	-3850
 				}
 			},
 			"StaticRotator.Prop-96c60909-9230-4f84-9b15-87f9628fa01e":	{
 				"$Position":	{
-					"$x":	5320,
-					"$y":	-3511
+					"$x":	5283,
+					"$y":	-3630
 				}
 			},
 			"Imported.Prop-8a3be3f9-4165-45c8-8b06-a707db8d614f":	{
 				"$Position":	{
-					"$x":	6071,
-					"$y":	-3644
+					"$x":	6034,
+					"$y":	-3763
 				}
 			},
 			"OrthogonalRotation.Rotation-35445894-6c20-4f6e-90d6-31a6b55cba41":	{
 				"$Position":	{
-					"$x":	6071,
-					"$y":	-3475
+					"$x":	6034,
+					"$y":	-3594
+				}
+			},
+			"Offset.Prop-05a34733-d249-4885-b389-ff8a90ca0e42":	{
+				"$Position":	{
+					"$x":	4613,
+					"$y":	-3337
+				}
+			},
+			"Decimal.Vector3d-843c391e-4fdf-44b5-9b84-1f450c4ea502":	{
+				"$Position":	{
+					"$x":	5283,
+					"$y":	-3423
+				}
+			},
+			"StaticRotator.Prop-b5b2b432-cbb3-4f7b-aa6a-a02cd53ec5e4":	{
+				"$Position":	{
+					"$x":	5283,
+					"$y":	-3202
+				}
+			},
+			"Imported.Prop-7e18d7a3-35e6-4ac9-9509-8034711c4932":	{
+				"$Position":	{
+					"$x":	6034,
+					"$y":	-3335
+				}
+			},
+			"OrthogonalRotation.Rotation-9e6fd43b-de5d-44cf-a356-e4ed25cdbb20":	{
+				"$Position":	{
+					"$x":	6034,
+					"$y":	-3166
+				}
+			},
+			"Offset.Prop-33836790-9c96-4075-a83c-fe94e2ae4419":	{
+				"$Position":	{
+					"$x":	4613,
+					"$y":	-2909
+				}
+			},
+			"Decimal.Vector3d-c9242747-701f-4d25-bd93-224a8b2f50cd":	{
+				"$Position":	{
+					"$x":	5283,
+					"$y":	-2995
+				}
+			},
+			"StaticRotator.Prop-7ffb362d-ac62-49a3-97fb-de00dedc5a01":	{
+				"$Position":	{
+					"$x":	5283,
+					"$y":	-2774
+				}
+			},
+			"Imported.Prop-d6d93c13-29b8-409f-be6f-aabbf07a2311":	{
+				"$Position":	{
+					"$x":	6034,
+					"$y":	-2907
+				}
+			},
+			"OrthogonalRotation.Rotation-4cd16a99-ae01-4be7-af5f-1ee47824c99e":	{
+				"$Position":	{
+					"$x":	6034,
+					"$y":	-2738
 				}
 			},
 			"Offset.Prop-1b140cf2-19ba-4268-9c21-8092b1713baf":	{
 				"$Position":	{
-					"$x":	3296,
-					"$y":	-3696
+					"$x":	3259,
+					"$y":	-3815
 				}
 			},
 			"Decimal.Vector3d-d494883c-2e69-49a6-95b9-54d4aeb84b14":	{
 				"$Position":	{
-					"$x":	3965,
-					"$y":	-3933
+					"$x":	3928,
+					"$y":	-4052
 				}
 			},
 			"Imported.Prop-113ddc5c-7064-4c67-aa0c-40078284a3ea":	{
 				"$Position":	{
-					"$x":	3947,
-					"$y":	-3696
+					"$x":	3910,
+					"$y":	-3815
 				}
 			},
 			"Offset.Prop-c030df3e-67d3-4131-819d-3854be977e8e":	{
 				"$Position":	{
-					"$x":	3296,
-					"$y":	-3258
+					"$x":	3259,
+					"$y":	-3377
 				}
 			},
 			"Decimal.Vector3d-a1a47983-e209-4711-8c42-7f5eb8075c7b":	{
 				"$Position":	{
-					"$x":	3965,
-					"$y":	-3495
+					"$x":	3928,
+					"$y":	-3614
 				}
 			},
 			"Imported.Prop-60a64915-0a48-40fd-bc3e-0d47d47694ed":	{
 				"$Position":	{
-					"$x":	3947,
-					"$y":	-3258
+					"$x":	3910,
+					"$y":	-3377
 				}
 			},
 			"Offset.Prop-387eee2d-d901-44c0-9ef0-6b1431473eeb":	{
 				"$Position":	{
-					"$x":	3296,
-					"$y":	-2820
+					"$x":	3259,
+					"$y":	-2939
 				}
 			},
 			"Decimal.Vector3d-df9b8e0a-fb8c-42e0-b2f8-1994d1906517":	{
 				"$Position":	{
-					"$x":	3965,
-					"$y":	-3057
+					"$x":	3928,
+					"$y":	-3176
 				}
 			},
 			"Imported.Prop-399efa19-ad81-4556-9e9c-bcf89582d609":	{
 				"$Position":	{
-					"$x":	3947,
-					"$y":	-2820
+					"$x":	3910,
+					"$y":	-2939
 				}
 			},
 			"Offset.Prop-d1b06de4-a3a6-45db-8708-a1836c95363f":	{
 				"$Position":	{
-					"$x":	3296,
-					"$y":	-2382
+					"$x":	3259,
+					"$y":	-2501
 				}
 			},
 			"Decimal.Vector3d-d76d8e3d-ab4e-489c-8abb-54402474bd4f":	{
 				"$Position":	{
-					"$x":	3965,
-					"$y":	-2619
+					"$x":	3928,
+					"$y":	-2738
 				}
 			},
 			"Imported.Prop-015fa9fa-799c-4b85-95b1-879447a8af31":	{
 				"$Position":	{
-					"$x":	3947,
-					"$y":	-2382
+					"$x":	3910,
+					"$y":	-2501
 				}
 			},
 			"BlockMask-c49159c5-ebb0-4e5a-b571-f6560cb6221d":	{
 				"$Position":	{
 					"$x":	2650,
 					"$y":	-1337
+				}
+			},
+			"Rule.BlockMask-da70901c-0487-4445-986f-f1305f437eec":	{
+				"$Position":	{
+					"$x":	3361,
+					"$y":	-1974
+				}
+			},
+			"BlockSet.BlockMask-d9543d2d-9328-41c1-b0df-8d41651d64c4":	{
+				"$Position":	{
+					"$x":	3658,
+					"$y":	-2097
+				}
+			},
+			"Material-916c05a3-80cb-4cf1-8efb-e902e315dc0d":	{
+				"$Position":	{
+					"$x":	4221,
+					"$y":	-2099
+				}
+			},
+			"BlockSet.BlockMask-6e41f5a6-edab-4d5a-abf5-39e362ec18c7":	{
+				"$Position":	{
+					"$x":	3658,
+					"$y":	-1935
+				}
+			},
+			"Material-6448cba9-98d6-48d8-99e3-07bfa32f0fb5":	{
+				"$Position":	{
+					"$x":	4221,
+					"$y":	-1935
 				}
 			},
 			"Rule.BlockMask-9d1f1367-2ffa-43a2-894f-b20f109e0294":	{
@@ -698,106 +804,10 @@
 					"$y":	859
 				}
 			},
-			"Offset.Prop-87e71084-0dc2-40ca-9405-f371849d1658":	{
-				"$Position":	{
-					"$x":	4650,
-					"$y":	-4128
-				}
-			},
-			"Decimal.Vector3d-6b447923-dba1-4897-9e8d-4a13cf0dedbe":	{
-				"$Position":	{
-					"$x":	5344,
-					"$y":	-4304
-				}
-			},
-			"Offset.Prop-05a34733-d249-4885-b389-ff8a90ca0e42":	{
-				"$Position":	{
-					"$x":	4650,
-					"$y":	-3218
-				}
-			},
-			"Decimal.Vector3d-843c391e-4fdf-44b5-9b84-1f450c4ea502":	{
-				"$Position":	{
-					"$x":	5320,
-					"$y":	-3304
-				}
-			},
-			"StaticRotator.Prop-b5b2b432-cbb3-4f7b-aa6a-a02cd53ec5e4":	{
-				"$Position":	{
-					"$x":	5320,
-					"$y":	-3083
-				}
-			},
-			"Imported.Prop-7e18d7a3-35e6-4ac9-9509-8034711c4932":	{
-				"$Position":	{
-					"$x":	6071,
-					"$y":	-3216
-				}
-			},
-			"OrthogonalRotation.Rotation-9e6fd43b-de5d-44cf-a356-e4ed25cdbb20":	{
-				"$Position":	{
-					"$x":	6071,
-					"$y":	-3047
-				}
-			},
-			"Offset.Prop-33836790-9c96-4075-a83c-fe94e2ae4419":	{
-				"$Position":	{
-					"$x":	4650,
-					"$y":	-2790
-				}
-			},
-			"Decimal.Vector3d-c9242747-701f-4d25-bd93-224a8b2f50cd":	{
-				"$Position":	{
-					"$x":	5320,
-					"$y":	-2876
-				}
-			},
-			"StaticRotator.Prop-7ffb362d-ac62-49a3-97fb-de00dedc5a01":	{
-				"$Position":	{
-					"$x":	5320,
-					"$y":	-2655
-				}
-			},
-			"Imported.Prop-d6d93c13-29b8-409f-be6f-aabbf07a2311":	{
-				"$Position":	{
-					"$x":	6071,
-					"$y":	-2788
-				}
-			},
-			"OrthogonalRotation.Rotation-4cd16a99-ae01-4be7-af5f-1ee47824c99e":	{
-				"$Position":	{
-					"$x":	6071,
-					"$y":	-2619
-				}
-			},
-			"Rule.BlockMask-da70901c-0487-4445-986f-f1305f437eec":	{
-				"$Position":	{
-					"$x":	3361,
-					"$y":	-1974
-				}
-			},
-			"BlockSet.BlockMask-d9543d2d-9328-41c1-b0df-8d41651d64c4":	{
-				"$Position":	{
-					"$x":	3658,
-					"$y":	-2097
-				}
-			},
-			"Material-916c05a3-80cb-4cf1-8efb-e902e315dc0d":	{
+			"Material-d9c31a9b-2e05-4187-907c-5ded06328ea3":	{
 				"$Position":	{
 					"$x":	4221,
-					"$y":	-2099
-				}
-			},
-			"BlockSet.BlockMask-6e41f5a6-edab-4d5a-abf5-39e362ec18c7":	{
-				"$Position":	{
-					"$x":	3658,
-					"$y":	-1935
-				}
-			},
-			"Material-6448cba9-98d6-48d8-99e3-07bfa32f0fb5":	{
-				"$Position":	{
-					"$x":	4221,
-					"$y":	-1935
+					"$y":	-2263
 				}
 			}
 		},
@@ -807,10 +817,10 @@
 		"$Groups":	[{
 				"$Position":	{
 					"$x":	1859.0625,
-					"$y":	-4539.8125
+					"$y":	-4572.375
 				},
 				"$width":	5461.625,
-				"$height":	3530.0625,
+				"$height":	3562.625,
 				"$name":	"Shafts"
 			}, {
 				"$Position":	{
