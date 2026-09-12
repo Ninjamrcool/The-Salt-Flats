@@ -2119,9 +2119,9 @@
 						"Skip":	false,
 						"Scale":	{
 							"$NodeId":	"Decimal.Vector3d-bea2737e-54d2-440c-923e-d63235b0d3f9",
-							"X":	125,
+							"X":	205,
 							"Y":	1,
-							"Z":	125
+							"Z":	205
 						},
 						"Positions":	{
 							"$NodeId":	"BaseHeight.Positions-5be7fa8f-1993-45d9-8a96-c122ae0174ce",

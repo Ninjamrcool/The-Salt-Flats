@@ -3,7 +3,7 @@
   "blockIdVersion": 11,
   "anchorX": 1,
   "anchorY": 1,
-  "anchorZ": 6,
+  "anchorZ": 3,
   "blocks": [
     {
       "x": -3,
@@ -87,12 +87,6 @@
       "x": -2,
       "y": 6,
       "z": -3,
-      "name": "Wood_Drywood_Beam"
-    },
-    {
-      "x": -2,
-      "y": 7,
-      "z": -3,
       "name": "Wood_Softwood_Ornate"
     },
     {
@@ -182,12 +176,6 @@
     {
       "x": -2,
       "y": 6,
-      "z": 0,
-      "name": "Wood_Drywood_Beam"
-    },
-    {
-      "x": -2,
-      "y": 7,
       "z": 0,
       "name": "Wood_Softwood_Ornate"
     },
@@ -493,12 +481,6 @@
     {
       "x": 1,
       "y": 6,
-      "z": 1,
-      "name": "Wood_Drywood_Beam"
-    },
-    {
-      "x": 1,
-      "y": 7,
       "z": 1,
       "name": "Wood_Softwood_Ornate"
     },
