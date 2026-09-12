@@ -1737,6 +1737,56 @@
 				}
 			}
 		}, {
+			"$NodeId":	"Runtime-8d8f669f-ae90-4cf1-9d64-137a24a615bb",
+			"Skip":	false,
+			"Runtime":	1,
+			"PropDistribution":	{
+				"$NodeId":	"Assigned.PropDistribution-d96d5fc2-a702-4bb9-9b7d-5cb09fc4670b",
+				"Type":	"Assigned",
+				"Skip":	false,
+				"OverrideAllProps":	false,
+				"PropDistribution":	{
+					"$NodeId":	"Constant.PropDistribution-98c6fc3e-51bb-492c-a5bd-5736fb2eb878",
+					"Type":	"Constant",
+					"Skip":	false,
+					"Positions":	{
+						"$NodeId":	"Scaler.Positions-1abb5078-d637-4fca-8611-b5fec7b6c81b",
+						"Type":	"Scaler",
+						"Skip":	false,
+						"Scale":	{
+							"$NodeId":	"Decimal.Vector3d-c4d0ef54-27b8-4e13-8d56-de4c50ae8197",
+							"X":	12,
+							"Y":	1,
+							"Z":	12
+						},
+						"Positions":	{
+							"$NodeId":	"BaseHeight.Positions-59e7a6c8-8d2e-460e-9e72-3bacc5fae989",
+							"Type":	"BaseHeight",
+							"Skip":	false,
+							"BedName":	"Base",
+							"Positions":	{
+								"$NodeId":	"Jitter2d.Positions-0b628588-60e7-4322-9cd3-19e1f49256dc",
+								"Type":	"Jitter2d",
+								"Skip":	false,
+								"Magnitude":	0.4,
+								"Seed":	"Salt_Flats_Shimmering_Cave_Calcite_Pillars",
+								"Positions":	{
+									"$NodeId":	"SquareGrid2d.Positions-013960bd-d1e8-4925-8fee-e47643b77ce1",
+									"Type":	"SquareGrid2d",
+									"Skip":	false
+								}
+							}
+						}
+					}
+				},
+				"Assignments":	{
+					"$NodeId":	"Imported.Assignments-5babe01e-7f9b-47bd-b5f9-1b786c984eb6",
+					"Type":	"Imported",
+					"Skip":	false,
+					"Name":	"Salt_Flats_Shimmering_Cave_Calcite_Pillars"
+				}
+			}
+		}, {
 			"$NodeId":	"Runtime-4bb9377a-aede-4fb2-b9c7-12425d19422f",
 			"Skip":	false,
 			"Runtime":	2,
@@ -4916,6 +4966,60 @@
 					"$x":	-1905,
 					"$y":	35245
 				}
+			},
+			"Runtime-8d8f669f-ae90-4cf1-9d64-137a24a615bb":	{
+				"$Position":	{
+					"$x":	-15574,
+					"$y":	29404
+				}
+			},
+			"Assigned.PropDistribution-d96d5fc2-a702-4bb9-9b7d-5cb09fc4670b":	{
+				"$Position":	{
+					"$x":	-14885,
+					"$y":	29480
+				}
+			},
+			"Constant.PropDistribution-98c6fc3e-51bb-492c-a5bd-5736fb2eb878":	{
+				"$Position":	{
+					"$x":	-14116,
+					"$y":	29478
+				}
+			},
+			"Scaler.Positions-1abb5078-d637-4fca-8611-b5fec7b6c81b":	{
+				"$Position":	{
+					"$x":	-13395,
+					"$y":	29478
+				}
+			},
+			"Decimal.Vector3d-c4d0ef54-27b8-4e13-8d56-de4c50ae8197":	{
+				"$Position":	{
+					"$x":	-12662,
+					"$y":	29693
+				}
+			},
+			"BaseHeight.Positions-59e7a6c8-8d2e-460e-9e72-3bacc5fae989":	{
+				"$Position":	{
+					"$x":	-12656,
+					"$y":	29479
+				}
+			},
+			"Jitter2d.Positions-0b628588-60e7-4322-9cd3-19e1f49256dc":	{
+				"$Position":	{
+					"$x":	-11979,
+					"$y":	29478
+				}
+			},
+			"SquareGrid2d.Positions-013960bd-d1e8-4925-8fee-e47643b77ce1":	{
+				"$Position":	{
+					"$x":	-11228,
+					"$y":	29479
+				}
+			},
+			"Imported.Assignments-5babe01e-7f9b-47bd-b5f9-1b786c984eb6":	{
+				"$Position":	{
+					"$x":	-14116,
+					"$y":	29731
+				}
 			}
 		},
 		"$FloatingNodes":	[{
@@ -5294,7 +5398,7 @@
 					"$y":	26995.75
 				},
 				"$width":	5455.875,
-				"$height":	4057.3125,
+				"$height":	3228.375,
 				"$name":	"Shimmering Caves"
 			}, {
 				"$Position":	{
@@ -5304,6 +5408,14 @@
 				"$width":	5055.9375,
 				"$height":	900.4375,
 				"$name":	"Mineshafts"
+			}, {
+				"$Position":	{
+					"$x":	-15727.25,
+					"$y":	29227.375
+				},
+				"$width":	5089.625,
+				"$height":	807.5,
+				"$name":	"Ground Decorators"
 			}],
 		"$Comments":	[{
 				"$Position":	{
