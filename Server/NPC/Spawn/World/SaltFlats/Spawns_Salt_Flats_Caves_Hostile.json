@@ -22,6 +22,10 @@
       "Id": "Goblin_Thief",
       "Weight": 1,
       "SpawnBlockSet": "Rock"
+    },
+    {
+      "Id": "Skeleton",
+      "Weight": 2
     }
   ]
 }

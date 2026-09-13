@@ -1,0 +1,15 @@
+{
+  "Entries": [
+    {
+      "Name": "Furniture_Temple_Light_Chest_Small",
+      "Weight": 100,
+      "Components": {
+        "Components": {
+          "ItemContainerBlock": {
+            "Droplist": "Salt_Flats_Shimmering_Caves_Tier1"
+          }
+        }
+      }
+    }
+  ]
+}

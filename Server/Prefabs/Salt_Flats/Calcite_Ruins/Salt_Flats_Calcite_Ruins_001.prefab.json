@@ -3800,7 +3800,21 @@
       "x": 2,
       "y": 5,
       "z": 6,
-      "name": "Empty"
+      "name": "Block_Spawner_Block",
+      "components": {
+        "Components": {
+          "PlacedByInteraction": {
+            "WhoPlacedUuid": {
+              "$binary": "ownTYu6PR7ebL9OJmdXyVA==",
+              "$type": "04"
+            }
+          },
+          "BlockSpawner": {
+            "BlockSpawnerId": "Salt_Flats_Shimmering_Caves_Tier1"
+          }
+        }
+      },
+      "rotation": 2
     },
     {
       "x": 2,
@@ -5594,6 +5608,55 @@
       "z": 7,
       "name": "Rock_Calcite_Brick_Half",
       "rotation": 5
+    }
+  ],
+  "entities": [
+    {
+      "Components": {
+        "Nameplate": {
+          "Text": "Skeleton"
+        },
+        "HiddenFromAdventurePlayer": {},
+        "SpawnMarkerComponent": {
+          "SpawnMarker": "Skeleton",
+          "RespawnTime": 0.0,
+          "SpawnCount": 0,
+          "NPCReferences": [],
+          "PersistedFlock": {},
+          "SpawnPosition": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "Transform": {
+          "Position": {
+            "X": 0.9816265106201172,
+            "Y": 5.0,
+            "Z": 4.779397964477539
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 1.4695439338684082,
+            "Roll": 0.0
+          }
+        },
+        "Intangible": {},
+        "PrefabCopyable": {},
+        "Model": {
+          "Model": {
+            "Id": "NPC_Spawn_Marker",
+            "Scale": 1.0,
+            "Static": false
+          }
+        },
+        "UUID": {
+          "UUID": {
+            "$binary": "apZWbot/NOWN194AyLpx8Q==",
+            "$type": "04"
+          }
+        }
+      }
     }
   ]
 }
